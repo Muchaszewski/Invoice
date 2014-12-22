@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <InvoiceNumer>0</InvoiceNumer>
+  <isDebugOn>false</isDebugOn>
+  <DecimalSize>0</DecimalSize>
+  <DefaultPayment>0</DefaultPayment>
+  <NewDefaultCurrency>PLN</NewDefaultCurrency>
+  <ConvertedCurrency>PLN</ConvertedCurrency>
+</Config>

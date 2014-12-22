@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Invoice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <InvoiceNumer>-1</InvoiceNumer>
+  <Currency>PLN</Currency>
+  <Items />
+  <Contractors />
+  <DateMakeing>0001-01-01T00:00:00</DateMakeing>
+  <DateSelling>0001-01-01T00:00:00</DateSelling>
+  <PaymentType>0</PaymentType>
+  <DatePaying>0001-01-01T00:00:00</DatePaying>
+  <DateTable>0001-01-01T00:00:00</DateTable>
+</Invoice>

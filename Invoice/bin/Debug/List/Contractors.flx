@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfContractor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Contractor>
+    <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+    <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+    <Type>BUYER</Type>
+    <Street>Kombatantów 34</Street>
+    <PostCode>66-400</PostCode>
+    <City>Gorzów Wielkopolski</City>
+    <Province />
+    <NIP>5993170223</NIP>
+    <REGON />
+    <BankAccName />
+    <BankAcc />
+  </Contractor>
+  <Contractor>
+    <Name>Rafał Błaszczyk</Name>
+    <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+    <Type>SELLER</Type>
+    <Street>Wierzbowa 10</Street>
+    <PostCode>64-050</PostCode>
+    <City>Śniaty</City>
+    <Province />
+    <NIP>8882599611</NIP>
+    <REGON>300875901</REGON>
+    <BankAccName>Bank Zachodni WBK</BankAccName>
+    <BankAcc>09109012450000000123954359</BankAcc>
+  </Contractor>
+</ArrayOfContractor>

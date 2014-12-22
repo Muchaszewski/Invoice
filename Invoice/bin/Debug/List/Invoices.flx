@@ -1,0 +1,3216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfInvoice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Invoice>
+    <InvoiceNumer>34</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0194/2014 z dnia 2014-09-15</Name>
+        <Unit>ITEM</Unit>
+        <Price>110.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-09-15T13:33:45</DateMakeing>
+    <DateSelling>2014-09-15T13:33:45</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>2014-10-30T13:33:45</DatePaying>
+    <DateTable>2014-09-12T17:18:03</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>135,30€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>35</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0198/2014 z dnia 2014-09-16</Name>
+        <Unit>ITEM</Unit>
+        <Price>30.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-09-15T13:50:19</DateMakeing>
+    <DateSelling>2014-09-15T13:50:19</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>2014-10-30T13:50:19</DatePaying>
+    <DateTable>2014-09-12T17:20:04</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>36,90€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>36</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0199/2014 z dnia 2014-09-16</Name>
+        <Unit>ITEM</Unit>
+        <Price>80.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-09-15T13:58:40</DateMakeing>
+    <DateSelling>2014-09-15T13:58:40</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>2014-10-30T13:58:40</DatePaying>
+    <DateTable>2014-09-12T17:30:24</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>98,40€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>37</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0203/2014 z dnia 2014-09-16</Name>
+        <Unit>ITEM</Unit>
+        <Price>100.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-09-16T14:02:44</DateMakeing>
+    <DateSelling>2014-09-16T14:02:44</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>2014-10-31T14:02:44</DatePaying>
+    <DateTable>2014-09-15T17:30:57</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>123,00€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>38</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0207/2014 z dnia 2014-09-16</Name>
+        <Unit>ITEM</Unit>
+        <Price>100.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-09-16T14:05:49</DateMakeing>
+    <DateSelling>2014-09-16T14:05:49</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>2014-10-31T14:05:49</DatePaying>
+    <DateTable>2014-09-15T17:31:11</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>123,00€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>39</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0211/2014 z dnia 2014-09-17</Name>
+        <Unit>ITEM</Unit>
+        <Price>100.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-09-18T14:11:25</DateMakeing>
+    <DateSelling>2014-09-18T14:11:25</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>2014-11-01T14:11:25</DatePaying>
+    <DateTable>2014-09-17T17:31:32</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>123,00€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>40</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0210/2014 z dnia 2014-09-17</Name>
+        <Unit>ITEM</Unit>
+        <Price>110.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-09-17T14:15:01</DateMakeing>
+    <DateSelling>2014-09-17T14:15:01</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>2014-11-01T14:15:01</DatePaying>
+    <DateTable>2014-09-16T17:31:45</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>135,30€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>41</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0218/2014 z dnia 2014-09-18</Name>
+        <Unit>ITEM</Unit>
+        <Price>110.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-09-18T14:18:33</DateMakeing>
+    <DateSelling>2014-09-18T14:18:33</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>2014-11-02T14:18:33</DatePaying>
+    <DateTable>2014-09-17T17:31:56</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>135,30€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>42</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0216/2014 z dnia 2014-09-18</Name>
+        <Unit>ITEM</Unit>
+        <Price>100.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-09-18T14:21:24</DateMakeing>
+    <DateSelling>2014-09-18T14:21:24</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>2014-11-02T14:21:24</DatePaying>
+    <DateTable>2014-09-17T17:32:06</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>123,00€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>43</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0222/2014 z dnia 2014-09-20</Name>
+        <Unit>ITEM</Unit>
+        <Price>100.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-09-19T14:23:46</DateMakeing>
+    <DateSelling>2014-09-19T14:23:46</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>2014-11-03T14:23:46</DatePaying>
+    <DateTable>2014-09-18T17:32:24</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>123,00€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>44</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0226/2014 z dnia 2014-09-20</Name>
+        <Unit>ITEM</Unit>
+        <Price>100.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-09-22T14:31:40</DateMakeing>
+    <DateSelling>2014-09-22T14:31:40</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>2014-11-03T14:31:40</DatePaying>
+    <DateTable>2014-09-19T17:33:05</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>123,00€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>45</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0227/2014 z dnia 2014-09-22</Name>
+        <Unit>ITEM</Unit>
+        <Price>80.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-09-22T14:38:31</DateMakeing>
+    <DateSelling>2014-09-22T14:38:31</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>2014-11-06T14:38:31</DatePaying>
+    <DateTable>2014-09-19T17:33:21</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>98,40€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>46</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0228/2014 z dnia 2014-09-22</Name>
+        <Unit>ITEM</Unit>
+        <Price>110.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-09-22T14:42:42</DateMakeing>
+    <DateSelling>2014-09-22T14:42:42</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>2014-11-06T14:42:42</DatePaying>
+    <DateTable>2014-09-19T17:33:36</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>135,30€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>47</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0237/2014 z dnia 2014-09-24</Name>
+        <Unit>ITEM</Unit>
+        <Price>100.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-09-23T14:55:16</DateMakeing>
+    <DateSelling>2014-09-23T14:55:16</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>2014-11-07T14:55:16</DatePaying>
+    <DateTable>2014-09-22T17:33:58</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>123,00€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>48</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0238/2014 z dnia 2014-09-24</Name>
+        <Unit>ITEM</Unit>
+        <Price>130.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-09-24T15:08:42</DateMakeing>
+    <DateSelling>2014-09-24T15:08:42</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>2014-11-07T15:08:42</DatePaying>
+    <DateTable>2014-09-23T17:34:15</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>159,90€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>49</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0245/2014 z dnia 2014-09-25</Name>
+        <Unit>ITEM</Unit>
+        <Price>100.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-09-24T15:12:44</DateMakeing>
+    <DateSelling>2014-09-24T15:12:44</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>2014-11-08T15:12:44</DatePaying>
+    <DateTable>2014-09-23T17:34:27</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>123,00€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>50</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0240/2014 z dnia 2014-09-24</Name>
+        <Unit>ITEM</Unit>
+        <Price>90.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-09-24T15:15:07</DateMakeing>
+    <DateSelling>2014-09-24T15:15:07</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>2014-11-08T15:15:07</DatePaying>
+    <DateTable>2014-09-23T17:34:41</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>110,70€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>51</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0239/2014 z dnia 2014-09-24</Name>
+        <Unit>ITEM</Unit>
+        <Price>40.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-09-24T15:18:06</DateMakeing>
+    <DateSelling>2014-09-24T15:18:06</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>2014-11-08T15:18:06</DatePaying>
+    <DateTable>2014-09-23T17:34:52</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>49,20€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>52</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0249/2014 z dnia 2014-09-26</Name>
+        <Unit>ITEM</Unit>
+        <Price>110.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-09-25T15:21:48</DateMakeing>
+    <DateSelling>2014-09-25T15:21:48</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>2014-11-09T15:21:48</DatePaying>
+    <DateTable>2014-09-24T17:35:04</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>135,30€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>53</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0250/2014 z dnia 2014-09-26</Name>
+        <Unit>ITEM</Unit>
+        <Price>100.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-09-26T15:25:25</DateMakeing>
+    <DateSelling>2014-09-26T15:25:25</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>2014-11-09T15:25:25</DatePaying>
+    <DateTable>2014-09-25T17:35:18</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>123,00€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>54</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0256/2014 z dnia 2014-09-26</Name>
+        <Unit>ITEM</Unit>
+        <Price>110.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-09-29T15:29:10</DateMakeing>
+    <DateSelling>2014-09-29T15:29:10</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>2014-11-10T15:29:10</DatePaying>
+    <DateTable>2014-09-26T17:35:33</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>135,30€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>56</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0257/2014 z dnia 2014-09-29</Name>
+        <Unit>ITEM</Unit>
+        <Price>110.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-09-29T11:05:23</DateMakeing>
+    <DateSelling>2014-09-29T11:05:23</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <DateTable>2014-09-26T11:05:23</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>135,30€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>57</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0258/2014 z dnia 2014-09-29</Name>
+        <Unit>ITEM</Unit>
+        <Price>100.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-09-30T11:12:23</DateMakeing>
+    <DateSelling>2014-09-30T11:12:23</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <DateTable>2014-09-29T11:12:23</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>123,00€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>58</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0263/2014 z dnia 2014-09-30</Name>
+        <Unit>ITEM</Unit>
+        <Price>245.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-09-30T11:17:53</DateMakeing>
+    <DateSelling>2014-09-30T11:17:53</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <DateTable>2014-09-29T11:17:53</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>301,35€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>59</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0269/2014 z dnia 2014-10-01</Name>
+        <Unit>ITEM</Unit>
+        <Price>210.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-01T18:39:02</DateMakeing>
+    <DateSelling>2014-10-01T18:39:02</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <DateTable>2014-09-30T18:39:02</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>258,30€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>60</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0271/2014 z dnia 2014-10-02</Name>
+        <Unit>ITEM</Unit>
+        <Price>100.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-02T19:09:44</DateMakeing>
+    <DateSelling>2014-10-02T19:09:44</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <DateTable>2014-10-01T19:09:43</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>123,00€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>61</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0272/2014 z dnia 2014-10-02</Name>
+        <Unit>ITEM</Unit>
+        <Price>110.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-02T19:16:26</DateMakeing>
+    <DateSelling>2014-10-02T19:16:26</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <DateTable>2014-10-01T19:16:25</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>135,30€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>62</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0280/2014 z dnia 2014-10-06</Name>
+        <Unit>ITEM</Unit>
+        <Price>110.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-06T16:57:35</DateMakeing>
+    <DateSelling>2014-10-06T16:57:35</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <DateTable>2014-10-03T16:57:34</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>135,30€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>63</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0281/2014 z dnia 2014-10-06</Name>
+        <Unit>ITEM</Unit>
+        <Price>100.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-06T17:03:31</DateMakeing>
+    <DateSelling>2014-10-06T17:03:31</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <DateTable>2014-10-03T17:03:30</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>123,00€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>64</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0283/2014 z dnia 2014-10-07</Name>
+        <Unit>ITEM</Unit>
+        <Price>110.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-07T17:10:21</DateMakeing>
+    <DateSelling>2014-10-07T17:10:21</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <DateTable>2014-10-06T17:10:20</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>135,30€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>65</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0284/2014 z dnia 2014-10-07</Name>
+        <Unit>ITEM</Unit>
+        <Price>130.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-07T19:11:59</DateMakeing>
+    <DateSelling>2014-10-07T19:11:59</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <DateTable>2014-10-06T19:11:58</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>159,90€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>66</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0294/2014 z dnia 2014-10-08</Name>
+        <Unit>ITEM</Unit>
+        <Price>110.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-08T19:20:56</DateMakeing>
+    <DateSelling>2014-10-08T19:20:56</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <DateTable>2014-10-07T19:20:56</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>135,30€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>67</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0295/2014 z dnia 2014-10-08</Name>
+        <Unit>ITEM</Unit>
+        <Price>100.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-08T19:24:35</DateMakeing>
+    <DateSelling>2014-10-08T19:24:35</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <DateTable>2014-10-07T19:24:35</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>123,00€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>68</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0302/2014 z dnia 2014-10-10</Name>
+        <Unit>ITEM</Unit>
+        <Price>90.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-09T19:26:53</DateMakeing>
+    <DateSelling>2014-10-09T19:26:53</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <DateTable>2014-10-08T19:26:53</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>110,70€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>69</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0303/2014 z dnia 2014-10-10</Name>
+        <Unit>ITEM</Unit>
+        <Price>120.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-09T18:54:16</DateMakeing>
+    <DateSelling>2014-10-09T18:54:16</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <DateTable>2014-10-08T18:54:16</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>147,60€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>70</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0311/2014 z dnia 2014-10-10</Name>
+        <Unit>ITEM</Unit>
+        <Price>110.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-10T19:24:27</DateMakeing>
+    <DateSelling>2014-10-10T19:24:27</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <DateTable>2014-10-09T19:24:26</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>135,30€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>71</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0311/2014 z dnia 2014-10-10</Name>
+        <Unit>ITEM</Unit>
+        <Price>110.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-10T19:29:24</DateMakeing>
+    <DateSelling>2014-10-10T19:29:24</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <DateTable>2014-10-09T19:29:23</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>135,30€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>73</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0317/2014 z dnia 2014-10-13</Name>
+        <Unit>ITEM</Unit>
+        <Price>140.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-13T10:11:52</DateMakeing>
+    <DateSelling>2014-10-13T10:11:52</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <PaymentInfo>45 dni od daty dostarczenia dokumentów</PaymentInfo>
+    <DateTable>2014-10-10T10:11:52</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>172,20€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>74</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0326/2014 z dnia 2014-10-15</Name>
+        <Unit>ITEM</Unit>
+        <Price>150.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-14T10:16:57</DateMakeing>
+    <DateSelling>2014-10-14T10:16:57</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <PaymentInfo>45 dni od daty dostarczenia dokumentów</PaymentInfo>
+    <DateTable>2014-10-13T10:16:57</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>184,50€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>75</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0327/2014 z dnia 2014-10-15</Name>
+        <Unit>ITEM</Unit>
+        <Price>100.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-15T10:20:08</DateMakeing>
+    <DateSelling>2014-10-15T10:20:08</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <PaymentInfo>45 dni od daty dostarczenia dokumentów</PaymentInfo>
+    <DateTable>2014-10-14T10:20:08</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>123,00€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>76</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0336/2014 z dnia 2014-10-16</Name>
+        <Unit>ITEM</Unit>
+        <Price>110.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-16T10:23:17</DateMakeing>
+    <DateSelling>2014-10-16T10:23:17</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <PaymentInfo>45 dni od daty dostarczenia dokumentów</PaymentInfo>
+    <DateTable>2014-10-15T10:23:17</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>135,30€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>77</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0337/2014 z dnia 2014-10-15</Name>
+        <Unit>ITEM</Unit>
+        <Price>100.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-16T10:28:02</DateMakeing>
+    <DateSelling>2014-10-16T10:28:02</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <PaymentInfo>45 dni od daty dostarczenia dokumentów</PaymentInfo>
+    <DateTable>2014-10-15T10:28:02</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>123,00€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>78</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0360/2014 z dnia 2014-10-18</Name>
+        <Unit>ITEM</Unit>
+        <Price>100.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-16T10:30:48</DateMakeing>
+    <DateSelling>2014-10-16T10:30:48</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <PaymentInfo>45 dni od daty dostarczenia dokumentów</PaymentInfo>
+    <DateTable>2014-10-15T10:30:48</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>123,00€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>79</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0361/2014 z dnia 2014-10-17</Name>
+        <Unit>ITEM</Unit>
+        <Price>110.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-17T10:36:27</DateMakeing>
+    <DateSelling>2014-10-17T10:36:27</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <PaymentInfo>45 dni od daty dostarczenia dokumentów</PaymentInfo>
+    <DateTable>2014-10-16T10:36:27</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>135,30€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>80</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0362/2014 z dnia 2014-10-17</Name>
+        <Unit>ITEM</Unit>
+        <Price>110.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-17T10:38:27</DateMakeing>
+    <DateSelling>2014-10-17T10:38:27</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <PaymentInfo>45 dni od daty dostarczenia dokumentów</PaymentInfo>
+    <DateTable>2014-10-16T10:38:27</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>135,30€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>81</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0382/2014 z dnia 2014-10-20</Name>
+        <Unit>ITEM</Unit>
+        <Price>150.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-20T17:45:23</DateMakeing>
+    <DateSelling>2014-10-20T17:45:23</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <PaymentInfo>45 dni od daty dostarczenia dokumentów</PaymentInfo>
+    <DateTable>2014-10-17T17:45:23</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>184,50€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>82</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0383/2014 z dnia 2014-10-20</Name>
+        <Unit>ITEM</Unit>
+        <Price>90.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-21T17:53:22</DateMakeing>
+    <DateSelling>2014-10-21T17:53:22</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <PaymentInfo>45 dni od daty dostarczenia dokumentów</PaymentInfo>
+    <DateTable>2014-10-20T17:53:21</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>110,70€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>83</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0393/2014 z dnia 2014-10-21</Name>
+        <Unit>ITEM</Unit>
+        <Price>110.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-21T17:57:31</DateMakeing>
+    <DateSelling>2014-10-21T17:57:31</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <PaymentInfo>45 dni od daty dostarczenia dokumentów</PaymentInfo>
+    <DateTable>2014-10-20T17:57:31</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>135,30€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>84</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0406/2014 z dnia 2014-10-23</Name>
+        <Unit>ITEM</Unit>
+        <Price>110.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-22T17:59:46</DateMakeing>
+    <DateSelling>2014-10-22T17:59:46</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <PaymentInfo>45 dni od daty dostarczenia dokumentów</PaymentInfo>
+    <DateTable>2014-10-21T17:59:45</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>135,30€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>85</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0407/2014 z dnia 2014-10-23</Name>
+        <Unit>ITEM</Unit>
+        <Price>110.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-22T18:01:40</DateMakeing>
+    <DateSelling>2014-10-22T18:01:40</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <PaymentInfo>45 dni od daty dostarczenia dokumentów</PaymentInfo>
+    <DateTable>2014-10-21T18:01:40</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>135,30€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>86</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0410/2014 z dnia 2014-10-24</Name>
+        <Unit>ITEM</Unit>
+        <Price>270.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-24T18:03:36</DateMakeing>
+    <DateSelling>2014-10-24T18:03:36</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <PaymentInfo>45 dni od daty dostarczenia dokumentów</PaymentInfo>
+    <DateTable>2014-10-23T18:03:36</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>332,10€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>87</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0424/2014 z dnia 2014-10-27</Name>
+        <Unit>ITEM</Unit>
+        <Price>170.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-27T18:06:20</DateMakeing>
+    <DateSelling>2014-10-27T18:06:20</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <PaymentInfo>45 dni od daty dostarczenia dokumentów</PaymentInfo>
+    <DateTable>2014-10-24T18:06:19</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>209,10€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>88</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0436/2014 z dnia 2014-10-28</Name>
+        <Unit>ITEM</Unit>
+        <Price>120.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-28T17:52:06</DateMakeing>
+    <DateSelling>2014-10-28T17:52:06</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <PaymentInfo>45 dni od daty dostarczenia dokumentów</PaymentInfo>
+    <DateTable>2014-10-27T17:52:05</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>147,60€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>89</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0437/2014 z dnia 2014-10-28</Name>
+        <Unit>ITEM</Unit>
+        <Price>100.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-27T18:00:23</DateMakeing>
+    <DateSelling>2014-10-27T18:00:23</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <PaymentInfo>45 dni od daty dostarczenia dokumentów</PaymentInfo>
+    <DateTable>2014-10-24T18:00:23</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>123,00€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>90</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0442/2014 z dnia 2014-10-28</Name>
+        <Unit>ITEM</Unit>
+        <Price>100.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-28T18:13:23</DateMakeing>
+    <DateSelling>2014-10-28T18:13:24</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <PaymentInfo>45 dni od daty dostarczenia dokumentów</PaymentInfo>
+    <DateTable>2014-10-27T18:13:23</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>123,00€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>91</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0443/2014 z dnia 2014-10-28</Name>
+        <Unit>ITEM</Unit>
+        <Price>110.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-28T18:18:56</DateMakeing>
+    <DateSelling>2014-10-28T18:18:56</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <PaymentInfo>45 dni od daty dostarczenia dokumentów</PaymentInfo>
+    <DateTable>2014-10-27T18:18:55</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>135,30€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>92</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0456/2014 z dnia 2014-10-29</Name>
+        <Unit>ITEM</Unit>
+        <Price>110.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-29T18:22:26</DateMakeing>
+    <DateSelling>2014-10-29T18:22:26</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <PaymentInfo>45 dni od daty dostarczenia dokumentów</PaymentInfo>
+    <DateTable>2014-10-28T18:22:25</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>135,30€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>93</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0457/2014 z dnia 2014-10-29</Name>
+        <Unit>ITEM</Unit>
+        <Price>140.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-30T18:26:30</DateMakeing>
+    <DateSelling>2014-10-30T18:26:30</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <PaymentInfo>45 dni od daty dostarczenia dokumentów</PaymentInfo>
+    <DateTable>2014-10-29T18:26:29</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>172,20€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>94</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0465/2014 z dnia 2014-10-30</Name>
+        <Unit>ITEM</Unit>
+        <Price>60.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-30T18:29:08</DateMakeing>
+    <DateSelling>2014-10-30T18:29:09</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <PaymentInfo>45 dni od daty dostarczenia dokumentów</PaymentInfo>
+    <DateTable>2014-10-29T18:29:08</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>73,80€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>95</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0466/2014 z dnia 2014-10-31</Name>
+        <Unit>ITEM</Unit>
+        <Price>70.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-30T18:31:48</DateMakeing>
+    <DateSelling>2014-10-30T18:31:48</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <PaymentInfo>45 dni od daty dostarczenia dokumentów</PaymentInfo>
+    <DateTable>2014-10-29T18:31:47</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>86,10€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>96</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0467/2014 z dnia 2014-10-31</Name>
+        <Unit>ITEM</Unit>
+        <Price>80.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-10-31T18:36:20.4152+01:00</DateMakeing>
+    <DateSelling>2014-10-31T18:36:20.4776+01:00</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <PaymentInfo>45 dni od daty dostarczenia dokumentów</PaymentInfo>
+    <DateTable>2014-10-30T18:36:19</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>98,40€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>98</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0479/2014 z dnia 2014-11-03</Name>
+        <Unit>ITEM</Unit>
+        <Price>200.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-11-03T18:39:17</DateMakeing>
+    <DateSelling>2014-11-03T18:39:17</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <PaymentInfo>45 dni od daty dostarczenia dokumentów</PaymentInfo>
+    <DateTable>2014-10-31T18:39:17</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>246,00zł</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>99</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0480/2014 z dnia 2014-11-04</Name>
+        <Unit>ITEM</Unit>
+        <Price>150.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-11-03T18:54:05</DateMakeing>
+    <DateSelling>2014-11-03T18:54:05</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <PaymentInfo>45 dni od daty dostarczenia dokumentów</PaymentInfo>
+    <DateTable>2014-10-31T18:54:05</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>184,50€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>100</InvoiceNumer>
+    <Currency>PLN</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0485/2014 z dnia 2014-11-04</Name>
+        <Unit>ITEM</Unit>
+        <Price>120.0000</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-11-04T19:00:01</DateMakeing>
+    <DateSelling>2014-11-04T19:00:01</DateSelling>
+    <PaymentType>1</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <PaymentInfo>45 dni od daty dostarczenia dokumentów</PaymentInfo>
+    <DateTable>2014-11-03T19:00:00</DateTable>
+    <SellingPlace>Śniaty</SellingPlace>
+    <Warning />
+    <PriceTax>147,60€</PriceTax>
+  </Invoice>
+  <Invoice>
+    <InvoiceNumer>16</InvoiceNumer>
+    <Currency>EUR</Currency>
+    <Items>
+      <Item>
+        <Name>zlecenie transportowe 0295/2014 z dnia 2014-10-08</Name>
+        <Unit>ITEM</Unit>
+        <Price>145.5</Price>
+        <Tax>23</Tax>
+        <Quantity>1</Quantity>
+      </Item>
+    </Items>
+    <Contractors>
+      <Contractor>
+        <Name>Rafał Błaszczyk</Name>
+        <CompanyName>OŚRODEK SZKOLENIA KIEROWCÓW "DRIVER'</CompanyName>
+        <Type>SELLER</Type>
+        <Street>Wierzbowa 10</Street>
+        <PostCode>64-050</PostCode>
+        <City>Śniaty</City>
+        <Province />
+        <NIP>8882599611</NIP>
+        <REGON>300875901</REGON>
+        <BankAccName>Bank Zachodni WBK</BankAccName>
+        <BankAcc>09109012450000000123954359</BankAcc>
+      </Contractor>
+      <Contractor>
+        <Name>Donata Towalska, Katarzyna Wojtasik</Name>
+        <CompanyName>"DONATELLA&amp;LUCY" S.C. </CompanyName>
+        <Type>BUYER</Type>
+        <Street>Kombatantów 34</Street>
+        <PostCode>66-400</PostCode>
+        <City>Gorzów Wielkopolski</City>
+        <Province />
+        <NIP>5993170223</NIP>
+        <REGON />
+        <BankAccName />
+        <BankAcc />
+      </Contractor>
+    </Contractors>
+    <DateMakeing>2014-12-06T20:23:10.4215058+01:00</DateMakeing>
+    <DateSelling>2014-12-06T20:23:10.4235059+01:00</DateSelling>
+    <PaymentType>0</PaymentType>
+    <DatePaying>0001-01-01T00:00:00</DatePaying>
+    <PaymentInfo>2014-12-06</PaymentInfo>
+    <DateTable>2014-12-06T20:23:10.4165055+01:00</DateTable>
+    <SellingPlace />
+    <Warning />
+    <PriceTax>178,97€</PriceTax>
+  </Invoice>
+</ArrayOfInvoice>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item>
+    <Name>zlecenie transportowe 0265/2014 z dnia 2014-09-30</Name>
+    <Unit>ITEM</Unit>
+    <Price>205.0000</Price>
+    <Tax>23</Tax>
+    <Currency>EUR</Currency>
+    <Quantity>1</Quantity>
+  </Item>
+</ArrayOfItem>
