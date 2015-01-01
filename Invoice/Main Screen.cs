@@ -14,7 +14,7 @@ using System.Diagnostics;
 
 namespace Faktury
 {
-    public partial class FMain : Form
+    public partial class FormMain : Form
     {
         private int sortColumnInvoice = -1;
         private int sortColumnContractors = -1;
@@ -25,7 +25,7 @@ namespace Faktury
         public delegate void OnItemAdded();
         public static event OnItemAdded onItemAdded;
 
-        public FMain()
+        public FormMain()
         {
             InitializeComponent();
             RebuildInvoices();
@@ -182,7 +182,7 @@ namespace Faktury
 
         private void opcjeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FOptions().ShowDialog();
+            new FormOptions().ShowDialog();
         }
 
         private void BAddItem_Click(object sender, EventArgs e)

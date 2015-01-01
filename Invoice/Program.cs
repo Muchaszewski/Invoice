@@ -46,7 +46,7 @@ namespace Faktury
             {
 
             }
-            Application.Run(new FMain());
+            Application.Run(new FormMain());
         }
     }
 }

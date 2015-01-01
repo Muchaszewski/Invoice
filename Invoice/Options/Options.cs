@@ -16,9 +16,9 @@ using Faktury.DialogBox;
 
 namespace Faktury
 {
-    public partial class FOptions : Form
+    public partial class FormOptions : Form
     {
-        public FOptions()
+        public FormOptions()
         {
             InitializeComponent();
             populateCurrencyComboBox();

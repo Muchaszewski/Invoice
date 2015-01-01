@@ -1,6 +1,6 @@
 ﻿namespace Faktury
 {
-    partial class FOptions
+    partial class FormOptions
     {
         /// <summary>
         /// Required designer variable.

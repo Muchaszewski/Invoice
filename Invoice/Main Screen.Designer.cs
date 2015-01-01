@@ -4,7 +4,7 @@ using Faktury.Items;
 using Faktury.Utils;
 namespace Faktury
 {
-    partial class FMain
+    partial class FormMain
     {
         /// <summary>
         /// Required designer variable.
