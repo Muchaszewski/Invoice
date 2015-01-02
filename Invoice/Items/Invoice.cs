@@ -10,6 +10,7 @@ namespace Faktury.Items
     public class Invoice
     {
         public int InvoiceNumer { get; set; }
+        public string InvoiceDate { get; set; }
         public ECurrencyItem Currency { get; set; }
         public List<Item> Items { get; set; }
         public List<Contractor> Contractors { get; set; }

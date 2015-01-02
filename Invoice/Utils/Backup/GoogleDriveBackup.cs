@@ -195,47 +195,79 @@ namespace Faktury.Utils.Backup
         public static List<BackupItems> GetBackupData()
         {
             List<BackupItems> result = new List<BackupItems>();
-            BackupItems temp = new BackupItems();
-            int counter = 0;
+            int index = 0;
             foreach (var item in DriveContent)
             {
+                if (result.Count > 0)
+                {
+                    if (item.MimeType == MimeFolder)
+                    {
+                        index = result.FindIndex(i => i.FolderID == item.Id);
+                    }
+                    else
+                    {
+                        index = result.FindIndex(i => i.FolderID == item.Parents[0].Id);
+                    }
+                    if (index == -1)
+                    {
+                        if (item.Parents[0].IsRoot == false)
+                        {
+                            result.Add(new BackupItems(item.Parents[0].Id));
+                        }
+                        else
+                        {
+                            result.Add(new BackupItems(item.Id));
+                        }
+                        index = result.Count - 1;
+                    }
+                }
+                else
+                {
+                    if (item.Parents[0].IsRoot == false)
+                    {
+                        result.Add(new BackupItems(item.Parents[0].Id));
+                    }
+                    else
+                    {
+                        result.Add(new BackupItems(item.Id));
+                    }
+                }
+
                 if (item.MimeType == MimeFolder)
                 {
-                    temp.File = item;
+                    result[index].File = item;
+                    var a = result[index].File.Id;
                 }
                 else
                 {
                     if (item.Title == "Invoice")
                     {
                         string[] lines = Regex.Split(item.Description, "_");
-                        temp.InvoiceCount = Convert.ToInt32(lines[0]);
-                        temp.InvoiceData = lines[1];
+                        result[index].InvoiceCount = Convert.ToInt32(lines[0]);
+                        result[index].InvoiceData = lines[1];
+                        result[index].Invoice = item;
                     }
                     else if (item.Title == "Contractors")
                     {
                         string[] lines = Regex.Split(item.Description, "_");
-                        temp.ContractorCount = Convert.ToInt32(lines[0]);
-                        temp.ContractorData = lines[1];
+                        result[index].ContractorCount = Convert.ToInt32(lines[0]);
+                        result[index].ContractorData = lines[1];
+                        result[index].Contractors = item;
                     }
                     else if (item.Title == "Items")
                     {
                         string[] lines = Regex.Split(item.Description, "_");
-                        temp.ItemCount = Convert.ToInt32(lines[0]);
-                        temp.ItemData = lines[1];
+                        result[index].ItemCount = Convert.ToInt32(lines[0]);
+                        result[index].ItemData = lines[1];
+                        result[index].Items = item;
                     }
                     else if (item.Title == "Config")
                     {
                         string[] lines = Regex.Split(item.Description, "_");
-                        temp.ConfigCount = Convert.ToInt32(lines[0]);
-                        temp.ConfigData = lines[1];
+                        result[index].ConfigCount = Convert.ToInt32(lines[0]);
+                        result[index].ConfigData = lines[1];
+                        result[index].Config = item;
                     }
-                }
-                counter++;
-                if(counter == 5)
-                {
-                    result.Add(temp.Copy());
-                    temp = new BackupItems();
-                    counter = 0;
                 }
             }
             return result;

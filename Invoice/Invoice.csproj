@@ -106,6 +106,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.94.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139" />
     <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Messaging" />
     <Reference Include="System.Net" />
@@ -117,6 +118,7 @@
       <HintPath>..\packages\Microsoft.Net.Http.2.2.22\lib\net45\System.Net.Http.Primitives.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Transactions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -177,10 +179,10 @@
       <DependentUpon>Main Screen.cs</DependentUpon>
     </Compile>
     <Compile Include="Options\BackupItems.cs" />
-    <Compile Include="Options\BackupMenu.cs">
+    <Compile Include="Utils\Backup\BackupMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Options\BackupMenu.Designer.cs">
+    <Compile Include="Utils\Backup\BackupMenu.Designer.cs">
       <DependentUpon>BackupMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="Options\Options.cs">
@@ -237,7 +239,7 @@
     <EmbeddedResource Include="Main Screen.resx">
       <DependentUpon>Main Screen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Options\BackupMenu.resx">
+    <EmbeddedResource Include="Utils\Backup\BackupMenu.resx">
       <DependentUpon>BackupMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Options\Options.resx">
@@ -296,6 +298,9 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />

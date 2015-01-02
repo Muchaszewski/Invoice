@@ -28,15 +28,16 @@ namespace Faktury.Utils
 
             try
             {
+                if (!File.Exists(ITEMS_LIST))
+                {
+                    File.Create(ITEMS_LIST).Close();
+                }
                 Data.Items = XMLSerialization.ReadFromXmlFile<List<Item>>(ITEMS_LIST);
             }
             catch
             {
                 MessageBox.Show("Plik z danymi nie istnieje, lub jest uszkodzony. ITEMS");
-                if (!File.Exists(ITEMS_LIST))
-                {
-                    File.Create(ITEMS_LIST).Close();
-                }
+
                 Data.Items = new List<Item>();
                 Data.SaveItem();
             }
@@ -45,15 +46,16 @@ namespace Faktury.Utils
 
             try
             {
+                if (!File.Exists(CONTRACTORS_LIST))
+                {
+                    File.Create(CONTRACTORS_LIST).Close();
+                }
                 Data.Contractors = XMLSerialization.ReadFromXmlFile<List<Contractor>>(CONTRACTORS_LIST);
             }
             catch
             {
                 MessageBox.Show("Plik z danymi nie istnieje, lub jest uszkodzony. CONTRACOTRS");
-                if (!File.Exists(CONTRACTORS_LIST))
-                {
-                    File.Create(CONTRACTORS_LIST).Close();
-                }
+
                 Data.Contractors = new List<Contractor>();
                 Data.SaveContractor();
             }
@@ -62,15 +64,16 @@ namespace Faktury.Utils
 
             try
             {
+                if (!File.Exists(INVOICES_LIST))
+                {
+                    File.Create(INVOICES_LIST).Close();
+                }
                 Data.Invoices = XMLSerialization.ReadFromXmlFile<List<Invoice>>(INVOICES_LIST);
             }
             catch
             {
                 MessageBox.Show("Plik z danymi nie istnieje, lub jest uszkodzony. INVOICES");
-                if (!File.Exists(INVOICES_LIST))
-                {
-                    File.Create(INVOICES_LIST).Close();
-                }
+
                 Data.Invoices = new List<Invoice>();
                 Data.SaveInvoice();
             }
@@ -79,15 +82,16 @@ namespace Faktury.Utils
 
             try
             {
+                if (!File.Exists(CONFIG))
+                {
+                    File.Create(CONFIG).Close();
+                }
                 Data.Config = XMLSerialization.ReadFromXmlFile<Config>(CONFIG);
             }
             catch
             {
                 MessageBox.Show("Plik z danymi nie istnieje, lub jest uszkodzony. CONFIG");
-                if (!File.Exists(CONFIG))
-                {
-                    File.Create(CONFIG).Close();
-                }
+
                 Data.Config = new Config();
                 Data.SaveConfig();
             }

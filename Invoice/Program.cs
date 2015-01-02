@@ -35,7 +35,7 @@ namespace Faktury
             {
                 if (VersionChecker.IsNewUpdate(Application.ProductVersion))
                 {
-                    var result = MessageBox.Show("Dostępna jest nowa wersja. Czy chcesz aktualizować teraz?", "Nowa wersja jest dostępna", MessageBoxButtons.YesNo);
+                    var result = MessageBox.Show("Dostępna jest nowa wersja. Czy chcesz aktualizować teraz?\r\nWersja online: " + VersionChecker.latestVersion + "\r\nWersje na twoim komputerze: " + Application.ProductVersion, "Nowa wersja jest dostępna", MessageBoxButtons.YesNo);
                     if (result == DialogResult.Yes)
                     {
                         Update.Download();

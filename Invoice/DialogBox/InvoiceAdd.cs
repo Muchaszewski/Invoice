@@ -54,7 +54,7 @@ namespace Faktury.DialogBox
                 }
                 comboBoxCurrency.SelectedIndex = (int)sInvoice.Currency;
                 RebuildOtherData();
-                if(edit == -2)
+                if (edit == -2)
                 {
                     TemplateEdit();
                 }
@@ -73,7 +73,6 @@ namespace Faktury.DialogBox
 
             textBoxTable.Text = NBPRates.GetCurrenciesTable("EUR");
             textBoxCurrency.Text = NBPRates.GetCurrenciesRate("EUR");
-            textBoxNrYear.Text = DateTime.Now.Year.ToString();
             if (sInvoice.InvoiceNumer == -1)
             {
                 sInvoice.InvoiceNumer = Data.Config.InvoiceNumer;
@@ -124,8 +123,8 @@ namespace Faktury.DialogBox
             }
             else
             {
-                if(sInvoice.Contractors[0] != null)
-                    textBoxPlace.Text = textBoxPlace.Text = sInvoice.Contractors[0].City; 
+                if (sInvoice.Contractors[0] != null)
+                    textBoxPlace.Text = textBoxPlace.Text = sInvoice.Contractors[0].City;
             }
             if (sInvoice.Warning != "")
             {
@@ -152,6 +151,24 @@ namespace Faktury.DialogBox
                     textBoxAddNote.Text = DateTime.Now.ToShortDateString();
                 }
             }
+            if (textBoxNrYear.Text == "Year")
+            {
+                if (edit != -1 && edit != -2)
+                {
+                    if (sInvoice.InvoiceDate == null)
+                    {
+                        textBoxNrYear.Text = sInvoice.DateMakeing.Year.ToString();
+                    }
+                    else
+                    {
+                        textBoxNrYear.Text = sInvoice.InvoiceDate;
+                    }
+                }
+                else
+                {
+                    textBoxNrYear.Text = DateTime.Now.Year.ToString();
+                }
+            }
         }
 
         private void SaveOtherData()
@@ -164,6 +181,7 @@ namespace Faktury.DialogBox
             sInvoice.SellingPlace = textBoxPlace.Text;
             sInvoice.Warning = textBoxWarning.Text;
             sInvoice.InvoiceNumer = Convert.ToInt32(textBoxNr.Text);
+            sInvoice.InvoiceDate = textBoxNrYear.Text;
             sInvoice.PriceTax = textBoxTaxValue1.Text;
             sInvoice.PaymentInfo = textBoxAddNote.Text;
         }

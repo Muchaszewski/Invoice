@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <InvoiceNumer>17</InvoiceNumer>
+  <InvoiceNumer>18</InvoiceNumer>
   <isDebugOn>false</isDebugOn>
   <DecimalSize>0</DecimalSize>
   <DefaultPayment>1</DefaultPayment>

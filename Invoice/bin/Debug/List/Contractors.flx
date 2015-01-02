@@ -12,6 +12,9 @@
     <REGON />
     <BankAccName />
     <BankAcc />
+    <EMail />
+    <PhoneNumber />
+    <PhoneNumber2 />
   </Contractor>
   <Contractor>
     <Name>Rafał Błaszczyk</Name>
@@ -25,5 +28,8 @@
     <REGON>300875901</REGON>
     <BankAccName>Bank Zachodni WBK</BankAccName>
     <BankAcc>09109012450000000123954359</BankAcc>
+    <EMail />
+    <PhoneNumber />
+    <PhoneNumber2 />
   </Contractor>
 </ArrayOfContractor>

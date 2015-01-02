@@ -9,6 +9,13 @@ namespace Faktury.Options
 {
     public class BackupItems
     {
+        private string folderID;
+        public string FolderID
+        {
+            get { return folderID; }
+            set { folderID = value; }
+        }
+
         private int itemCount;
         public int ItemCount
         {
@@ -70,6 +77,39 @@ namespace Faktury.Options
         {
             get { return file; }
             set { file = value; }
+        }
+
+        private File invoice;
+        public File Invoice
+        {
+            get { return invoice; }
+            set { invoice = value; }
+        }
+
+        private File items;
+        public File Items
+        {
+            get { return items; }
+            set { items = value; }
+        }
+
+        private File contractors;
+        public File Contractors
+        {
+            get { return contractors; }
+            set { contractors = value; }
+        }
+
+        private File config;
+        public File Config
+        {
+            get { return config; }
+            set { config = value; }
+        }
+
+        public BackupItems(string folderID)
+        {
+            FolderID = folderID;
         }
 
         public BackupItems Copy()
