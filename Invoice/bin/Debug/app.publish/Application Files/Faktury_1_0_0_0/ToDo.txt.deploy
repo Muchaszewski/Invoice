@@ -1,6 +1,0 @@
-﻿1.0 -> RELASE
-1.1 -> 
-	- Sprawdzanie ciągłości faktur
-	- Sprawdzanie poprawności faktury przed zapisem
-	+ Poprawienie wyświetlania listy faktur 
-	- Edytowanie w trakcie podglądu faktury
