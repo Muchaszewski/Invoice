@@ -32,74 +32,74 @@
             this.textBoxData1 = new System.Windows.Forms.TextBox();
             this.textBoxData2 = new System.Windows.Forms.TextBox();
             this.textBoxSeller2 = new System.Windows.Forms.TextBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBoxContractors = new System.Windows.Forms.GroupBox();
             this.buttonChooseSeller = new System.Windows.Forms.Button();
             this.buttonChooseBuyer = new System.Windows.Forms.Button();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.dodajToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.kontrahentaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.produktUsługęToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.listViewItems = new System.Windows.Forms.ListView();
+            this.columnHeaderId = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderCount = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderUnit = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderPrice = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderTax = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderTaxPrice = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderTaxValue = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderValue = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.buttonEdit = new System.Windows.Forms.Button();
-            this.BDeleteItem = new System.Windows.Forms.Button();
-            this.BAddItem = new System.Windows.Forms.Button();
+            this.buttonDeleteItem = new System.Windows.Forms.Button();
+            this.buttonAddItem = new System.Windows.Forms.Button();
             this.textBoxTaxValue1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.labelTotalValue = new System.Windows.Forms.Label();
             this.textBoxTax1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.labelTax = new System.Windows.Forms.Label();
             this.textBoxTable = new System.Windows.Forms.TextBox();
             this.textBoxCurrency = new System.Windows.Forms.TextBox();
-            this.labelCurrency = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.labelCurrencyPrice = new System.Windows.Forms.Label();
+            this.labelMakingDate = new System.Windows.Forms.Label();
             this.dateTimePickerMaking = new System.Windows.Forms.DateTimePicker();
             this.dateTimePickerSelling = new System.Windows.Forms.DateTimePicker();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.labelSellingDate = new System.Windows.Forms.Label();
+            this.labelSellingPlace = new System.Windows.Forms.Label();
             this.textBoxPlace = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.labelPayment = new System.Windows.Forms.Label();
             this.comboBoxPaymentCheck = new System.Windows.Forms.ComboBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.labelPaymentDate = new System.Windows.Forms.Label();
+            this.labelInvoiceNumber = new System.Windows.Forms.Label();
             this.textBoxNr = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
+            this.labelNameSlash1 = new System.Windows.Forms.Label();
             this.textBoxNrYear = new System.Windows.Forms.TextBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupBoxDates = new System.Windows.Forms.GroupBox();
             this.textBoxAddNote = new System.Windows.Forms.TextBox();
             this.buttonSave = new System.Windows.Forms.Button();
             this.buttonPrint = new System.Windows.Forms.Button();
-            this.labelDefaultCurrency = new System.Windows.Forms.Label();
+            this.labelDefaultTax = new System.Windows.Forms.Label();
             this.textBoxTaxDefault = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
+            this.labelTotalPrice = new System.Windows.Forms.Label();
             this.textBoxValue1 = new System.Windows.Forms.TextBox();
-            this.labelDefaultCurrencyCopy = new System.Windows.Forms.Label();
+            this.labelDefaultPriceCopy = new System.Windows.Forms.Label();
             this.textBoxValueDefault = new System.Windows.Forms.TextBox();
             this.textBoxTaxValueDefault = new System.Windows.Forms.TextBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.groupBoxSummary = new System.Windows.Forms.GroupBox();
             this.dateTimePickerTable = new System.Windows.Forms.DateTimePicker();
             this.labelDateCurrency = new System.Windows.Forms.Label();
             this.textBoxNumberToWord = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
+            this.labelPriceToText = new System.Windows.Forms.Label();
+            this.buttonPreview = new System.Windows.Forms.Button();
+            this.printDocument = new System.Drawing.Printing.PrintDocument();
             this.textBoxWarning = new System.Windows.Forms.TextBox();
             this.groupBoxWarning = new System.Windows.Forms.GroupBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBoxWarning = new System.Windows.Forms.CheckBox();
             this.buttonEditItem = new System.Windows.Forms.Button();
-            this.label17 = new System.Windows.Forms.Label();
+            this.labelCurrency = new System.Windows.Forms.Label();
             this.comboBoxCurrency = new System.Windows.Forms.ComboBox();
-            this.groupBox1.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
+            this.groupBoxContractors.SuspendLayout();
+            this.menuStrip.SuspendLayout();
+            this.groupBoxDates.SuspendLayout();
+            this.groupBoxSummary.SuspendLayout();
             this.groupBoxWarning.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -143,19 +143,19 @@
             this.textBoxSeller2.Size = new System.Drawing.Size(132, 20);
             this.textBoxSeller2.TabIndex = 2;
             // 
-            // groupBox1
+            // groupBoxContractors
             // 
-            this.groupBox1.Controls.Add(this.buttonChooseSeller);
-            this.groupBox1.Controls.Add(this.buttonChooseBuyer);
-            this.groupBox1.Controls.Add(this.textBoxSeller1);
-            this.groupBox1.Controls.Add(this.textBoxData2);
-            this.groupBox1.Controls.Add(this.textBoxData1);
-            this.groupBox1.Controls.Add(this.textBoxSeller2);
-            this.groupBox1.Location = new System.Drawing.Point(10, 132);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(893, 165);
-            this.groupBox1.TabIndex = 4;
-            this.groupBox1.TabStop = false;
+            this.groupBoxContractors.Controls.Add(this.buttonChooseSeller);
+            this.groupBoxContractors.Controls.Add(this.buttonChooseBuyer);
+            this.groupBoxContractors.Controls.Add(this.textBoxSeller1);
+            this.groupBoxContractors.Controls.Add(this.textBoxData2);
+            this.groupBoxContractors.Controls.Add(this.textBoxData1);
+            this.groupBoxContractors.Controls.Add(this.textBoxSeller2);
+            this.groupBoxContractors.Location = new System.Drawing.Point(10, 132);
+            this.groupBoxContractors.Name = "groupBoxContractors";
+            this.groupBoxContractors.Size = new System.Drawing.Size(893, 165);
+            this.groupBoxContractors.TabIndex = 4;
+            this.groupBoxContractors.TabStop = false;
             // 
             // buttonChooseSeller
             // 
@@ -177,15 +177,15 @@
             this.buttonChooseBuyer.UseVisualStyleBackColor = true;
             this.buttonChooseBuyer.Click += new System.EventHandler(this.buttonChoose2_Click);
             // 
-            // menuStrip1
+            // menuStrip
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.dodajToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(906, 24);
-            this.menuStrip1.TabIndex = 5;
-            this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip.Name = "menuStrip";
+            this.menuStrip.Size = new System.Drawing.Size(906, 24);
+            this.menuStrip.TabIndex = 5;
+            this.menuStrip.Text = "menuStrip1";
             // 
             // dodajToolStripMenuItem
             // 
@@ -208,76 +208,76 @@
             this.produktUsługęToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.produktUsługęToolStripMenuItem.Text = "Produkt/Usługę";
             // 
-            // listView1
+            // listViewItems
             // 
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader9,
-            this.columnHeader1,
-            this.columnHeader7,
-            this.columnHeader3,
-            this.columnHeader2,
-            this.columnHeader4,
-            this.columnHeader6,
-            this.columnHeader5,
-            this.columnHeader8});
-            this.listView1.FullRowSelect = true;
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(10, 303);
-            this.listView1.MultiSelect = false;
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(806, 267);
-            this.listView1.TabIndex = 9;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.Details;
+            this.listViewItems.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeaderId,
+            this.columnHeaderName,
+            this.columnHeaderCount,
+            this.columnHeaderUnit,
+            this.columnHeaderPrice,
+            this.columnHeaderTax,
+            this.columnHeaderTaxPrice,
+            this.columnHeaderTaxValue,
+            this.columnHeaderValue});
+            this.listViewItems.FullRowSelect = true;
+            this.listViewItems.HideSelection = false;
+            this.listViewItems.Location = new System.Drawing.Point(10, 303);
+            this.listViewItems.MultiSelect = false;
+            this.listViewItems.Name = "listViewItems";
+            this.listViewItems.Size = new System.Drawing.Size(806, 267);
+            this.listViewItems.TabIndex = 9;
+            this.listViewItems.UseCompatibleStateImageBehavior = false;
+            this.listViewItems.View = System.Windows.Forms.View.Details;
             // 
-            // columnHeader9
+            // columnHeaderId
             // 
-            this.columnHeader9.Text = "Lp";
-            this.columnHeader9.Width = 25;
+            this.columnHeaderId.Text = "Lp";
+            this.columnHeaderId.Width = 25;
             // 
-            // columnHeader1
+            // columnHeaderName
             // 
-            this.columnHeader1.Text = "Nazwa";
-            this.columnHeader1.Width = 280;
+            this.columnHeaderName.Text = "Nazwa";
+            this.columnHeaderName.Width = 280;
             // 
-            // columnHeader7
+            // columnHeaderCount
             // 
-            this.columnHeader7.Text = "Ilość";
-            this.columnHeader7.Width = 40;
+            this.columnHeaderCount.Text = "Ilość";
+            this.columnHeaderCount.Width = 40;
             // 
-            // columnHeader3
+            // columnHeaderUnit
             // 
-            this.columnHeader3.Text = "J.m";
-            this.columnHeader3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader3.Width = 32;
+            this.columnHeaderUnit.Text = "J.m";
+            this.columnHeaderUnit.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeaderUnit.Width = 32;
             // 
-            // columnHeader2
+            // columnHeaderPrice
             // 
-            this.columnHeader2.Text = "Cena Netto";
-            this.columnHeader2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader2.Width = 67;
+            this.columnHeaderPrice.Text = "Cena Netto";
+            this.columnHeaderPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeaderPrice.Width = 67;
             // 
-            // columnHeader4
+            // columnHeaderTax
             // 
-            this.columnHeader4.Text = "Stawka VAT(%)";
-            this.columnHeader4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader4.Width = 93;
+            this.columnHeaderTax.Text = "Stawka VAT(%)";
+            this.columnHeaderTax.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeaderTax.Width = 93;
             // 
-            // columnHeader6
+            // columnHeaderTaxPrice
             // 
-            this.columnHeader6.Text = "Cena Brutto";
-            this.columnHeader6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader6.Width = 69;
+            this.columnHeaderTaxPrice.Text = "Cena Brutto";
+            this.columnHeaderTaxPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeaderTaxPrice.Width = 69;
             // 
-            // columnHeader5
+            // columnHeaderTaxValue
             // 
-            this.columnHeader5.Text = "Wartość Netto";
-            this.columnHeader5.Width = 90;
+            this.columnHeaderTaxValue.Text = "Wartość Netto";
+            this.columnHeaderTaxValue.Width = 90;
             // 
-            // columnHeader8
+            // columnHeaderValue
             // 
-            this.columnHeader8.Text = "Wartość Brutto";
-            this.columnHeader8.Width = 90;
+            this.columnHeaderValue.Text = "Wartość Brutto";
+            this.columnHeaderValue.Width = 90;
             // 
             // buttonEdit
             // 
@@ -289,25 +289,25 @@
             this.buttonEdit.UseVisualStyleBackColor = true;
             this.buttonEdit.Click += new System.EventHandler(this.buttonEdit_Click);
             // 
-            // BDeleteItem
+            // buttonDeleteItem
             // 
-            this.BDeleteItem.Location = new System.Drawing.Point(822, 547);
-            this.BDeleteItem.Name = "BDeleteItem";
-            this.BDeleteItem.Size = new System.Drawing.Size(75, 23);
-            this.BDeleteItem.TabIndex = 8;
-            this.BDeleteItem.Text = "Usuń";
-            this.BDeleteItem.UseVisualStyleBackColor = true;
-            this.BDeleteItem.Click += new System.EventHandler(this.BDeleteItem_Click);
+            this.buttonDeleteItem.Location = new System.Drawing.Point(822, 547);
+            this.buttonDeleteItem.Name = "buttonDeleteItem";
+            this.buttonDeleteItem.Size = new System.Drawing.Size(75, 23);
+            this.buttonDeleteItem.TabIndex = 8;
+            this.buttonDeleteItem.Text = "Usuń";
+            this.buttonDeleteItem.UseVisualStyleBackColor = true;
+            this.buttonDeleteItem.Click += new System.EventHandler(this.BDeleteItem_Click);
             // 
-            // BAddItem
+            // buttonAddItem
             // 
-            this.BAddItem.Location = new System.Drawing.Point(822, 303);
-            this.BAddItem.Name = "BAddItem";
-            this.BAddItem.Size = new System.Drawing.Size(75, 24);
-            this.BAddItem.TabIndex = 7;
-            this.BAddItem.Text = "Dodaj";
-            this.BAddItem.UseVisualStyleBackColor = true;
-            this.BAddItem.Click += new System.EventHandler(this.BAddItem_Click);
+            this.buttonAddItem.Location = new System.Drawing.Point(822, 303);
+            this.buttonAddItem.Name = "buttonAddItem";
+            this.buttonAddItem.Size = new System.Drawing.Size(75, 24);
+            this.buttonAddItem.TabIndex = 7;
+            this.buttonAddItem.Text = "Dodaj";
+            this.buttonAddItem.UseVisualStyleBackColor = true;
+            this.buttonAddItem.Click += new System.EventHandler(this.BAddItem_Click);
             // 
             // textBoxTaxValue1
             // 
@@ -318,14 +318,14 @@
             this.textBoxTaxValue1.TabIndex = 11;
             this.textBoxTaxValue1.Text = "0,00";
             // 
-            // label1
+            // labelTotalValue
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(244, 48);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(83, 13);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "Łączna wartość";
+            this.labelTotalValue.AutoSize = true;
+            this.labelTotalValue.Location = new System.Drawing.Point(244, 48);
+            this.labelTotalValue.Name = "labelTotalValue";
+            this.labelTotalValue.Size = new System.Drawing.Size(83, 13);
+            this.labelTotalValue.TabIndex = 12;
+            this.labelTotalValue.Text = "Łączna wartość";
             // 
             // textBoxTax1
             // 
@@ -336,14 +336,14 @@
             this.textBoxTax1.TabIndex = 13;
             this.textBoxTax1.Text = "0,00";
             // 
-            // label2
+            // labelTax
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 19);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(71, 13);
-            this.label2.TabIndex = 14;
-            this.label2.Text = "Wartość VAT";
+            this.labelTax.AutoSize = true;
+            this.labelTax.Location = new System.Drawing.Point(12, 19);
+            this.labelTax.Name = "labelTax";
+            this.labelTax.Size = new System.Drawing.Size(71, 13);
+            this.labelTax.TabIndex = 14;
+            this.labelTax.Text = "Wartość VAT";
             // 
             // textBoxTable
             // 
@@ -363,23 +363,23 @@
             this.textBoxCurrency.TabIndex = 16;
             this.textBoxCurrency.Text = "0,00";
             // 
-            // labelCurrency
+            // labelCurrencyPrice
             // 
-            this.labelCurrency.AutoSize = true;
-            this.labelCurrency.Location = new System.Drawing.Point(12, 84);
-            this.labelCurrency.Name = "labelCurrency";
-            this.labelCurrency.Size = new System.Drawing.Size(66, 13);
-            this.labelCurrency.TabIndex = 17;
-            this.labelCurrency.Text = "Kurs zł/euro";
+            this.labelCurrencyPrice.AutoSize = true;
+            this.labelCurrencyPrice.Location = new System.Drawing.Point(12, 84);
+            this.labelCurrencyPrice.Name = "labelCurrencyPrice";
+            this.labelCurrencyPrice.Size = new System.Drawing.Size(66, 13);
+            this.labelCurrencyPrice.TabIndex = 17;
+            this.labelCurrencyPrice.Text = "Kurs zł/euro";
             // 
-            // label4
+            // labelMakingDate
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(37, 16);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(90, 13);
-            this.label4.TabIndex = 18;
-            this.label4.Text = "Data wystawienia";
+            this.labelMakingDate.AutoSize = true;
+            this.labelMakingDate.Location = new System.Drawing.Point(37, 16);
+            this.labelMakingDate.Name = "labelMakingDate";
+            this.labelMakingDate.Size = new System.Drawing.Size(90, 13);
+            this.labelMakingDate.TabIndex = 18;
+            this.labelMakingDate.Text = "Data wystawienia";
             // 
             // dateTimePickerMaking
             // 
@@ -399,23 +399,23 @@
             this.dateTimePickerSelling.TabIndex = 21;
             this.dateTimePickerSelling.ValueChanged += new System.EventHandler(this.dateTimePickerMaking_ValueChanged);
             // 
-            // label5
+            // labelSellingDate
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(192, 16);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(80, 13);
-            this.label5.TabIndex = 20;
-            this.label5.Text = "Data sprzedaży";
+            this.labelSellingDate.AutoSize = true;
+            this.labelSellingDate.Location = new System.Drawing.Point(192, 16);
+            this.labelSellingDate.Name = "labelSellingDate";
+            this.labelSellingDate.Size = new System.Drawing.Size(80, 13);
+            this.labelSellingDate.TabIndex = 20;
+            this.labelSellingDate.Text = "Data sprzedaży";
             // 
-            // label6
+            // labelSellingPlace
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(336, 16);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(103, 13);
-            this.label6.TabIndex = 22;
-            this.label6.Text = "Miejsce wystawienia";
+            this.labelSellingPlace.AutoSize = true;
+            this.labelSellingPlace.Location = new System.Drawing.Point(336, 16);
+            this.labelSellingPlace.Name = "labelSellingPlace";
+            this.labelSellingPlace.Size = new System.Drawing.Size(103, 13);
+            this.labelSellingPlace.TabIndex = 22;
+            this.labelSellingPlace.Text = "Miejsce wystawienia";
             // 
             // textBoxPlace
             // 
@@ -425,14 +425,14 @@
             this.textBoxPlace.TabIndex = 23;
             this.textBoxPlace.TextChanged += new System.EventHandler(this.textBoxPlace_TextChanged);
             // 
-            // label7
+            // labelPayment
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(518, 16);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(83, 13);
-            this.label7.TabIndex = 25;
-            this.label7.Text = "Forma płatności";
+            this.labelPayment.AutoSize = true;
+            this.labelPayment.Location = new System.Drawing.Point(518, 16);
+            this.labelPayment.Name = "labelPayment";
+            this.labelPayment.Size = new System.Drawing.Size(83, 13);
+            this.labelPayment.TabIndex = 25;
+            this.labelPayment.Text = "Forma płatności";
             // 
             // comboBoxPaymentCheck
             // 
@@ -447,23 +447,23 @@
             this.comboBoxPaymentCheck.TabIndex = 26;
             this.comboBoxPaymentCheck.SelectedIndexChanged += new System.EventHandler(this.comboBoxPaymentCheck_SelectedIndexChanged);
             // 
-            // label8
+            // labelPaymentDate
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(720, 16);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(86, 13);
-            this.label8.TabIndex = 27;
-            this.label8.Text = "Termin płatności";
+            this.labelPaymentDate.AutoSize = true;
+            this.labelPaymentDate.Location = new System.Drawing.Point(720, 16);
+            this.labelPaymentDate.Name = "labelPaymentDate";
+            this.labelPaymentDate.Size = new System.Drawing.Size(86, 13);
+            this.labelPaymentDate.TabIndex = 27;
+            this.labelPaymentDate.Text = "Termin płatności";
             // 
-            // label9
+            // labelInvoiceNumber
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(12, 33);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(55, 13);
-            this.label9.TabIndex = 29;
-            this.label9.Text = "Faktura nr";
+            this.labelInvoiceNumber.AutoSize = true;
+            this.labelInvoiceNumber.Location = new System.Drawing.Point(12, 33);
+            this.labelInvoiceNumber.Name = "labelInvoiceNumber";
+            this.labelInvoiceNumber.Size = new System.Drawing.Size(55, 13);
+            this.labelInvoiceNumber.TabIndex = 29;
+            this.labelInvoiceNumber.Text = "Faktura nr";
             // 
             // textBoxNr
             // 
@@ -474,14 +474,14 @@
             this.textBoxNr.Text = "Nr";
             this.textBoxNr.TextChanged += new System.EventHandler(this.textBoxNr_TextChanged);
             // 
-            // label10
+            // labelNameSlash1
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(135, 33);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(12, 13);
-            this.label10.TabIndex = 31;
-            this.label10.Text = "/";
+            this.labelNameSlash1.AutoSize = true;
+            this.labelNameSlash1.Location = new System.Drawing.Point(135, 33);
+            this.labelNameSlash1.Name = "labelNameSlash1";
+            this.labelNameSlash1.Size = new System.Drawing.Size(12, 13);
+            this.labelNameSlash1.TabIndex = 31;
+            this.labelNameSlash1.Text = "/";
             // 
             // textBoxNrYear
             // 
@@ -492,23 +492,23 @@
             this.textBoxNrYear.Text = "Year";
             this.textBoxNrYear.TextChanged += new System.EventHandler(this.textBoxNrYear_TextChanged);
             // 
-            // groupBox2
+            // groupBoxDates
             // 
-            this.groupBox2.Controls.Add(this.textBoxAddNote);
-            this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Controls.Add(this.dateTimePickerMaking);
-            this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Controls.Add(this.dateTimePickerSelling);
-            this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Controls.Add(this.textBoxPlace);
-            this.groupBox2.Controls.Add(this.label8);
-            this.groupBox2.Controls.Add(this.label7);
-            this.groupBox2.Controls.Add(this.comboBoxPaymentCheck);
-            this.groupBox2.Location = new System.Drawing.Point(10, 59);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(893, 67);
-            this.groupBox2.TabIndex = 33;
-            this.groupBox2.TabStop = false;
+            this.groupBoxDates.Controls.Add(this.textBoxAddNote);
+            this.groupBoxDates.Controls.Add(this.labelMakingDate);
+            this.groupBoxDates.Controls.Add(this.dateTimePickerMaking);
+            this.groupBoxDates.Controls.Add(this.labelSellingDate);
+            this.groupBoxDates.Controls.Add(this.dateTimePickerSelling);
+            this.groupBoxDates.Controls.Add(this.labelSellingPlace);
+            this.groupBoxDates.Controls.Add(this.textBoxPlace);
+            this.groupBoxDates.Controls.Add(this.labelPaymentDate);
+            this.groupBoxDates.Controls.Add(this.labelPayment);
+            this.groupBoxDates.Controls.Add(this.comboBoxPaymentCheck);
+            this.groupBoxDates.Location = new System.Drawing.Point(10, 59);
+            this.groupBoxDates.Name = "groupBoxDates";
+            this.groupBoxDates.Size = new System.Drawing.Size(893, 67);
+            this.groupBoxDates.TabIndex = 33;
+            this.groupBoxDates.TabStop = false;
             // 
             // textBoxAddNote
             // 
@@ -538,14 +538,14 @@
             this.buttonPrint.UseVisualStyleBackColor = true;
             this.buttonPrint.Click += new System.EventHandler(this.buttonPrint_Click);
             // 
-            // labelDefaultCurrency
+            // labelDefaultTax
             // 
-            this.labelDefaultCurrency.AutoSize = true;
-            this.labelDefaultCurrency.Location = new System.Drawing.Point(30, 45);
-            this.labelDefaultCurrency.Name = "labelDefaultCurrency";
-            this.labelDefaultCurrency.Size = new System.Drawing.Size(53, 13);
-            this.labelDefaultCurrency.TabIndex = 36;
-            this.labelDefaultCurrency.Text = "w złotych";
+            this.labelDefaultTax.AutoSize = true;
+            this.labelDefaultTax.Location = new System.Drawing.Point(30, 45);
+            this.labelDefaultTax.Name = "labelDefaultTax";
+            this.labelDefaultTax.Size = new System.Drawing.Size(53, 13);
+            this.labelDefaultTax.TabIndex = 36;
+            this.labelDefaultTax.Text = "w złotych";
             // 
             // textBoxTaxDefault
             // 
@@ -556,14 +556,14 @@
             this.textBoxTaxDefault.TabIndex = 37;
             this.textBoxTaxDefault.Text = "0,00";
             // 
-            // label13
+            // labelTotalPrice
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(215, 22);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(112, 13);
-            this.label13.TabIndex = 40;
-            this.label13.Text = "Łączna wartość Netto";
+            this.labelTotalPrice.AutoSize = true;
+            this.labelTotalPrice.Location = new System.Drawing.Point(215, 22);
+            this.labelTotalPrice.Name = "labelTotalPrice";
+            this.labelTotalPrice.Size = new System.Drawing.Size(112, 13);
+            this.labelTotalPrice.TabIndex = 40;
+            this.labelTotalPrice.Text = "Łączna wartość Netto";
             // 
             // textBoxValue1
             // 
@@ -574,14 +574,14 @@
             this.textBoxValue1.TabIndex = 41;
             this.textBoxValue1.Text = "0,00";
             // 
-            // labelDefaultCurrencyCopy
+            // labelDefaultPriceCopy
             // 
-            this.labelDefaultCurrencyCopy.AutoSize = true;
-            this.labelDefaultCurrencyCopy.Location = new System.Drawing.Point(421, 22);
-            this.labelDefaultCurrencyCopy.Name = "labelDefaultCurrencyCopy";
-            this.labelDefaultCurrencyCopy.Size = new System.Drawing.Size(53, 13);
-            this.labelDefaultCurrencyCopy.TabIndex = 42;
-            this.labelDefaultCurrencyCopy.Text = "w złotych";
+            this.labelDefaultPriceCopy.AutoSize = true;
+            this.labelDefaultPriceCopy.Location = new System.Drawing.Point(421, 22);
+            this.labelDefaultPriceCopy.Name = "labelDefaultPriceCopy";
+            this.labelDefaultPriceCopy.Size = new System.Drawing.Size(53, 13);
+            this.labelDefaultPriceCopy.TabIndex = 42;
+            this.labelDefaultPriceCopy.Text = "w złotych";
             // 
             // textBoxValueDefault
             // 
@@ -601,32 +601,32 @@
             this.textBoxTaxValueDefault.TabIndex = 43;
             this.textBoxTaxValueDefault.Text = "0,00";
             // 
-            // groupBox3
+            // groupBoxSummary
             // 
-            this.groupBox3.Controls.Add(this.dateTimePickerTable);
-            this.groupBox3.Controls.Add(this.labelDateCurrency);
-            this.groupBox3.Controls.Add(this.textBoxNumberToWord);
-            this.groupBox3.Controls.Add(this.label12);
-            this.groupBox3.Controls.Add(this.label2);
-            this.groupBox3.Controls.Add(this.textBoxValueDefault);
-            this.groupBox3.Controls.Add(this.textBoxTaxValue1);
-            this.groupBox3.Controls.Add(this.textBoxTaxValueDefault);
-            this.groupBox3.Controls.Add(this.label1);
-            this.groupBox3.Controls.Add(this.labelDefaultCurrencyCopy);
-            this.groupBox3.Controls.Add(this.textBoxTax1);
-            this.groupBox3.Controls.Add(this.textBoxValue1);
-            this.groupBox3.Controls.Add(this.labelDefaultCurrency);
-            this.groupBox3.Controls.Add(this.labelCurrency);
-            this.groupBox3.Controls.Add(this.label13);
-            this.groupBox3.Controls.Add(this.textBoxCurrency);
-            this.groupBox3.Controls.Add(this.textBoxTable);
-            this.groupBox3.Controls.Add(this.textBoxTaxDefault);
-            this.groupBox3.Location = new System.Drawing.Point(248, 582);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(568, 135);
-            this.groupBox3.TabIndex = 46;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Podsumowanie";
+            this.groupBoxSummary.Controls.Add(this.dateTimePickerTable);
+            this.groupBoxSummary.Controls.Add(this.labelDateCurrency);
+            this.groupBoxSummary.Controls.Add(this.textBoxNumberToWord);
+            this.groupBoxSummary.Controls.Add(this.labelPriceToText);
+            this.groupBoxSummary.Controls.Add(this.labelTax);
+            this.groupBoxSummary.Controls.Add(this.textBoxValueDefault);
+            this.groupBoxSummary.Controls.Add(this.textBoxTaxValue1);
+            this.groupBoxSummary.Controls.Add(this.textBoxTaxValueDefault);
+            this.groupBoxSummary.Controls.Add(this.labelTotalValue);
+            this.groupBoxSummary.Controls.Add(this.labelDefaultPriceCopy);
+            this.groupBoxSummary.Controls.Add(this.textBoxTax1);
+            this.groupBoxSummary.Controls.Add(this.textBoxValue1);
+            this.groupBoxSummary.Controls.Add(this.labelDefaultTax);
+            this.groupBoxSummary.Controls.Add(this.labelCurrencyPrice);
+            this.groupBoxSummary.Controls.Add(this.labelTotalPrice);
+            this.groupBoxSummary.Controls.Add(this.textBoxCurrency);
+            this.groupBoxSummary.Controls.Add(this.textBoxTable);
+            this.groupBoxSummary.Controls.Add(this.textBoxTaxDefault);
+            this.groupBoxSummary.Location = new System.Drawing.Point(248, 582);
+            this.groupBoxSummary.Name = "groupBoxSummary";
+            this.groupBoxSummary.Size = new System.Drawing.Size(568, 135);
+            this.groupBoxSummary.TabIndex = 46;
+            this.groupBoxSummary.TabStop = false;
+            this.groupBoxSummary.Text = "Podsumowanie";
             // 
             // dateTimePickerTable
             // 
@@ -654,28 +654,28 @@
             this.textBoxNumberToWord.Size = new System.Drawing.Size(344, 20);
             this.textBoxNumberToWord.TabIndex = 47;
             // 
-            // label12
+            // labelPriceToText
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(166, 80);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(46, 13);
-            this.label12.TabIndex = 46;
-            this.label12.Text = "Słownie";
+            this.labelPriceToText.AutoSize = true;
+            this.labelPriceToText.Location = new System.Drawing.Point(166, 80);
+            this.labelPriceToText.Name = "labelPriceToText";
+            this.labelPriceToText.Size = new System.Drawing.Size(46, 13);
+            this.labelPriceToText.TabIndex = 46;
+            this.labelPriceToText.Text = "Słownie";
             // 
-            // button1
+            // buttonPreview
             // 
-            this.button1.Location = new System.Drawing.Point(645, 741);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 47;
-            this.button1.Text = "Podgląd";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.buttonPreview.Location = new System.Drawing.Point(645, 741);
+            this.buttonPreview.Name = "buttonPreview";
+            this.buttonPreview.Size = new System.Drawing.Size(75, 23);
+            this.buttonPreview.TabIndex = 47;
+            this.buttonPreview.Text = "Podgląd";
+            this.buttonPreview.UseVisualStyleBackColor = true;
+            this.buttonPreview.Click += new System.EventHandler(this.button1_Click);
             // 
-            // printDocument1
+            // printDocument
             // 
-            this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
+            this.printDocument.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
             // 
             // textBoxWarning
             // 
@@ -698,16 +698,16 @@
             this.groupBoxWarning.Text = "Uwagi";
             this.groupBoxWarning.Visible = false;
             // 
-            // checkBox1
+            // checkBoxWarning
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(16, 582);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(56, 17);
-            this.checkBox1.TabIndex = 51;
-            this.checkBox1.Text = "Uwagi";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            this.checkBoxWarning.AutoSize = true;
+            this.checkBoxWarning.Location = new System.Drawing.Point(16, 582);
+            this.checkBoxWarning.Name = "checkBoxWarning";
+            this.checkBoxWarning.Size = new System.Drawing.Size(56, 17);
+            this.checkBoxWarning.TabIndex = 51;
+            this.checkBoxWarning.Text = "Uwagi";
+            this.checkBoxWarning.UseVisualStyleBackColor = true;
+            this.checkBoxWarning.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // buttonEditItem
             // 
@@ -719,14 +719,14 @@
             this.buttonEditItem.UseVisualStyleBackColor = true;
             this.buttonEditItem.Click += new System.EventHandler(this.buttonEditItem_Click);
             // 
-            // label17
+            // labelCurrency
             // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(775, 36);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(41, 13);
-            this.label17.TabIndex = 53;
-            this.label17.Text = "Waluta";
+            this.labelCurrency.AutoSize = true;
+            this.labelCurrency.Location = new System.Drawing.Point(775, 36);
+            this.labelCurrency.Name = "labelCurrency";
+            this.labelCurrency.Size = new System.Drawing.Size(41, 13);
+            this.labelCurrency.TabIndex = 53;
+            this.labelCurrency.Text = "Waluta";
             // 
             // comboBoxCurrency
             // 
@@ -744,38 +744,38 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(906, 768);
             this.Controls.Add(this.comboBoxCurrency);
-            this.Controls.Add(this.label17);
+            this.Controls.Add(this.labelCurrency);
             this.Controls.Add(this.buttonEditItem);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.checkBoxWarning);
             this.Controls.Add(this.groupBoxWarning);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.buttonPreview);
+            this.Controls.Add(this.groupBoxSummary);
             this.Controls.Add(this.buttonPrint);
             this.Controls.Add(this.buttonSave);
-            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBoxDates);
             this.Controls.Add(this.textBoxNrYear);
-            this.Controls.Add(this.label10);
+            this.Controls.Add(this.labelNameSlash1);
             this.Controls.Add(this.textBoxNr);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.listView1);
+            this.Controls.Add(this.labelInvoiceNumber);
+            this.Controls.Add(this.listViewItems);
             this.Controls.Add(this.buttonEdit);
-            this.Controls.Add(this.BDeleteItem);
-            this.Controls.Add(this.BAddItem);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
+            this.Controls.Add(this.buttonDeleteItem);
+            this.Controls.Add(this.buttonAddItem);
+            this.Controls.Add(this.groupBoxContractors);
+            this.Controls.Add(this.menuStrip);
+            this.MainMenuStrip = this.menuStrip;
             this.Name = "InvoiceAdd";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "InvoiceAdd";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.InvoiceAdd_FormClosing);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
+            this.groupBoxContractors.ResumeLayout(false);
+            this.groupBoxContractors.PerformLayout();
+            this.menuStrip.ResumeLayout(false);
+            this.menuStrip.PerformLayout();
+            this.groupBoxDates.ResumeLayout(false);
+            this.groupBoxDates.PerformLayout();
+            this.groupBoxSummary.ResumeLayout(false);
+            this.groupBoxSummary.PerformLayout();
             this.groupBoxWarning.ResumeLayout(false);
             this.groupBoxWarning.PerformLayout();
             this.ResumeLayout(false);
@@ -789,69 +789,69 @@
         public System.Windows.Forms.TextBox textBoxData1;
         public System.Windows.Forms.TextBox textBoxData2;
         public System.Windows.Forms.TextBox textBoxSeller2;
-        public System.Windows.Forms.GroupBox groupBox1;
-        public System.Windows.Forms.MenuStrip menuStrip1;
+        public System.Windows.Forms.GroupBox groupBoxContractors;
+        public System.Windows.Forms.MenuStrip menuStrip;
         public System.Windows.Forms.ToolStripMenuItem dodajToolStripMenuItem;
         public System.Windows.Forms.ToolStripMenuItem kontrahentaToolStripMenuItem;
         public System.Windows.Forms.ToolStripMenuItem produktUsługęToolStripMenuItem;
-        public System.Windows.Forms.ListView listView1;
-        public System.Windows.Forms.ColumnHeader columnHeader1;
-        public System.Windows.Forms.ColumnHeader columnHeader3;
-        public System.Windows.Forms.ColumnHeader columnHeader2;
-        public System.Windows.Forms.ColumnHeader columnHeader4;
-        public System.Windows.Forms.ColumnHeader columnHeader6;
+        public System.Windows.Forms.ListView listViewItems;
+        public System.Windows.Forms.ColumnHeader columnHeaderName;
+        public System.Windows.Forms.ColumnHeader columnHeaderUnit;
+        public System.Windows.Forms.ColumnHeader columnHeaderPrice;
+        public System.Windows.Forms.ColumnHeader columnHeaderTax;
+        public System.Windows.Forms.ColumnHeader columnHeaderTaxPrice;
         public System.Windows.Forms.Button buttonEdit;
-        public System.Windows.Forms.Button BDeleteItem;
-        public System.Windows.Forms.Button BAddItem;
-        public System.Windows.Forms.ColumnHeader columnHeader7;
-        public System.Windows.Forms.ColumnHeader columnHeader8;
+        public System.Windows.Forms.Button buttonDeleteItem;
+        public System.Windows.Forms.Button buttonAddItem;
+        public System.Windows.Forms.ColumnHeader columnHeaderCount;
+        public System.Windows.Forms.ColumnHeader columnHeaderValue;
         public System.Windows.Forms.Button buttonChooseSeller;
         public System.Windows.Forms.Button buttonChooseBuyer;
         public System.Windows.Forms.TextBox textBoxTaxValue1;
-        public System.Windows.Forms.Label label1;
+        public System.Windows.Forms.Label labelTotalValue;
         public System.Windows.Forms.TextBox textBoxTax1;
-        public System.Windows.Forms.Label label2;
+        public System.Windows.Forms.Label labelTax;
         public System.Windows.Forms.TextBox textBoxTable;
         public System.Windows.Forms.TextBox textBoxCurrency;
-        public System.Windows.Forms.Label labelCurrency;
-        public System.Windows.Forms.Label label4;
+        public System.Windows.Forms.Label labelCurrencyPrice;
+        public System.Windows.Forms.Label labelMakingDate;
         public System.Windows.Forms.DateTimePicker dateTimePickerMaking;
         public System.Windows.Forms.DateTimePicker dateTimePickerSelling;
-        public System.Windows.Forms.Label label5;
-        public System.Windows.Forms.Label label6;
+        public System.Windows.Forms.Label labelSellingDate;
+        public System.Windows.Forms.Label labelSellingPlace;
         public System.Windows.Forms.TextBox textBoxPlace;
-        public System.Windows.Forms.Label label7;
+        public System.Windows.Forms.Label labelPayment;
         public System.Windows.Forms.ComboBox comboBoxPaymentCheck;
-        public System.Windows.Forms.Label label8;
-        public System.Windows.Forms.Label label9;
+        public System.Windows.Forms.Label labelPaymentDate;
+        public System.Windows.Forms.Label labelInvoiceNumber;
         public System.Windows.Forms.TextBox textBoxNr;
-        public System.Windows.Forms.Label label10;
+        public System.Windows.Forms.Label labelNameSlash1;
         public System.Windows.Forms.TextBox textBoxNrYear;
-        public System.Windows.Forms.GroupBox groupBox2;
+        public System.Windows.Forms.GroupBox groupBoxDates;
         public System.Windows.Forms.Button buttonSave;
         public System.Windows.Forms.Button buttonPrint;
-        public System.Windows.Forms.Label labelDefaultCurrency;
+        public System.Windows.Forms.Label labelDefaultTax;
         public System.Windows.Forms.TextBox textBoxTaxDefault;
-        public System.Windows.Forms.ColumnHeader columnHeader5;
-        public System.Windows.Forms.Label label13;
+        public System.Windows.Forms.ColumnHeader columnHeaderTaxValue;
+        public System.Windows.Forms.Label labelTotalPrice;
         public System.Windows.Forms.TextBox textBoxValue1;
-        public System.Windows.Forms.Label labelDefaultCurrencyCopy;
+        public System.Windows.Forms.Label labelDefaultPriceCopy;
         public System.Windows.Forms.TextBox textBoxValueDefault;
         public System.Windows.Forms.TextBox textBoxTaxValueDefault;
-        public System.Windows.Forms.GroupBox groupBox3;
-        public System.Windows.Forms.Button button1;
-        public System.Drawing.Printing.PrintDocument printDocument1;
-        public System.Windows.Forms.ColumnHeader columnHeader9;
+        public System.Windows.Forms.GroupBox groupBoxSummary;
+        public System.Windows.Forms.Button buttonPreview;
+        public System.Drawing.Printing.PrintDocument printDocument;
+        public System.Windows.Forms.ColumnHeader columnHeaderId;
         public System.Windows.Forms.TextBox textBoxNumberToWord;
-        public System.Windows.Forms.Label label12;
+        public System.Windows.Forms.Label labelPriceToText;
         public System.Windows.Forms.TextBox textBoxWarning;
         public System.Windows.Forms.GroupBox groupBoxWarning;
-        public System.Windows.Forms.CheckBox checkBox1;
+        public System.Windows.Forms.CheckBox checkBoxWarning;
         public System.Windows.Forms.TextBox textBoxAddNote;
         public System.Windows.Forms.DateTimePicker dateTimePickerTable;
         public System.Windows.Forms.Label labelDateCurrency;
         public System.Windows.Forms.Button buttonEditItem;
-        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label labelCurrency;
         private System.Windows.Forms.ComboBox comboBoxCurrency;
 
     }

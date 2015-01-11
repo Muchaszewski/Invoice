@@ -36,14 +36,15 @@ namespace Faktury
             this.listViewInvoice.ListViewItemSorter = new Sorter(listViewInvoice.Columns[0].Index, listViewInvoice.Sorting);
             this.listViewInvoice.Sort();
 
-            this.dateTimePicker1.Value = DateTime.Now;
-            this.dateTimePicker2.Value = DateTime.Now;
+            this.dateTimePickerFrom.Value = DateTime.Now;
+            this.dateTimePickerSince.Value = DateTime.Now;
 
             //Events
             Data.onInvoiceChange += RebuildInvoices;
             Data.onContractorChange += RebuildContractors;
             Data.onItemChange += RebuildItems;
         }
+
 
         private void RebuildInvoices()
         {
@@ -58,16 +59,16 @@ namespace Faktury
             int counter = 0;
             foreach (Invoice item in Data.Invoices)
             {
-                if (dateTimePicker1.Value.Date != DateTime.Now.Date)
+                if (dateTimePickerFrom.Value.Date != DateTime.Now.Date)
                 {
-                    if (item.DateMakeing.Date < dateTimePicker1.Value.Date)
+                    if (item.DateMakeing.Date < dateTimePickerFrom.Value.Date)
                     {
                         continue;
                     }
                 }
-                if (dateTimePicker2.Value.Date != DateTime.Now.Date)
+                if (dateTimePickerSince.Value.Date != DateTime.Now.Date)
                 {
-                    if (item.DateMakeing.Date > dateTimePicker2.Value.Date)
+                    if (item.DateMakeing.Date > dateTimePickerSince.Value.Date)
                     {
                         continue;
                     }
@@ -279,24 +280,24 @@ namespace Faktury
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
-            if (dateTimePicker2.Value < dateTimePicker1.Value)
+            if (dateTimePickerSince.Value < dateTimePickerFrom.Value)
             {
-                dateTimePicker2.Value = dateTimePicker1.Value;
+                dateTimePickerSince.Value = dateTimePickerFrom.Value;
             }
         }
 
         private void dateTimePicker2_ValueChanged(object sender, EventArgs e)
         {
-            if (dateTimePicker2.Value < dateTimePicker1.Value)
+            if (dateTimePickerSince.Value < dateTimePickerFrom.Value)
             {
-                dateTimePicker1.Value = dateTimePicker2.Value;
+                dateTimePickerFrom.Value = dateTimePickerSince.Value;
             }
         }
 
         private void buttonClear_Click(object sender, EventArgs e)
         {
-            dateTimePicker1.Value = DateTime.Now;
-            dateTimePicker2.Value = DateTime.Now;
+            dateTimePickerFrom.Value = DateTime.Now;
+            dateTimePickerSince.Value = DateTime.Now;
             comboBoxSeller.SelectedIndex = -1;
             comboBoxPayer.SelectedIndex = -1;
             comboBoxCity.SelectedIndex = -1;

@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Faktury.DialogBox.ContractorAdd">
+    <Position X="13.25" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CABAAIAAEaQiABQUAAiCJiACoCAAAGoAAGAIQhBDACI=</HashCode>
+      <FileName>DialogBox\ContractorAdd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Faktury.DialogBox.ContractorChoose">
+    <Position X="13.25" Y="12.5" Width="3" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="Faktury.DialogBox.ContractorChoose.OnContractorAdded" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DialogBox\ContractorChoose.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>iBAAQQAjBDCAgAAgAkCAAEACEAAAAGgSCEAAAAAhAAA=</HashCode>
+      <FileName>DialogBox\ContractorChoose.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Faktury.DialogBox.InvoiceAdd">
+    <Position X="0.5" Y="12.5" Width="3.5" />
+    <AssociationLine Name="TotalTaxOnlyValue" Type="Faktury.Items.Tax" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.938" Y="34.376" />
+        <Point X="5.006" Y="34.376" />
+        <Point X="5.006" Y="34.453" />
+        <Point X="7.417" Y="34.453" Type="JumpStart" />
+        <Point X="7.583" Y="34.453" Type="JumpEnd" />
+        <Point X="32" Y="34.453" />
+        <Point X="32" Y="5.94" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="sInvoice" Type="Faktury.Items.Invoice">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.125" Y="0.25" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>yMDQgQImhKhEiiNwoujCBxpKPCKoEeuyZGAwAwJVAqA=</HashCode>
+      <FileName>DialogBox\InvoiceAdd.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="sInvoice" />
+      <Property Name="NBPRates" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="TotalTaxOnlyValue" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Faktury.DialogBox.ItemAdd">
+    <Position X="16.75" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>qQBAAAAAIKCAAAEEAAKABABSAAACAggAMCAAIgAlAAA=</HashCode>
+      <FileName>DialogBox\ItemAdd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Faktury.DialogBox.ItemAddToInvoice">
+    <Position X="16.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAEAAAEAASABgACgAEAEAAABGAAAgAAAAA=</HashCode>
+      <FileName>DialogBox\ItemAddToInvoice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Faktury.DialogBox.ItemChoose">
+    <Position X="16.75" Y="12.5" Width="2.25" />
+    <NestedTypes>
+      <Delegate Name="Faktury.DialogBox.ItemChoose.OnItemAdded" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DialogBox\ItemChoose.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AgAAAAIggKBAACAQIECAAFEKEAAAEAACBGAAAgAhAAA=</HashCode>
+      <FileName>DialogBox\ItemChoose.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Faktury.Items.Config">
+    <Position X="29.25" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAIAAAAAAEAIAAAAQAAAAg=</HashCode>
+      <FileName>Items\Config.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Faktury.Items.Contractor" BaseTypeListCollapsed="true">
+    <Position X="25.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAQQIAAAAAAQAAAEAAAAABQIAggAAABI=</HashCode>
+      <FileName>Items\Contractor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Faktury.Items.Invoice">
+    <Position X="23.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAIAAAACIAAAAAQARRACAAAAACAAAAAAQAAABA=</HashCode>
+      <FileName>Items\Invoice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Faktury.Items.Item" BaseTypeListCollapsed="true">
+    <Position X="27.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAQAgAAQAIAAAAAQAAAAAAAAAAAAAgAAAABA=</HashCode>
+      <FileName>Items\Item.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Faktury.Items.Tax">
+    <Position X="31.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAIAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Faktury.FormMain">
+    <Position X="4.5" Y="12.5" Width="2.75" />
+    <NestedTypes>
+      <Delegate Name="Faktury.FormMain.OnItemAdded" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Main Screen.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>oNcAA0QDhLag2iCx4PCABElKCQoa0UiDTEBGAiFnBoE=</HashCode>
+      <FileName>Main Screen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Faktury.FormOptions">
+    <Position X="8.5" Y="12.5" Width="3.5" />
+    <Members>
+      <Field Name="buttonNewGoogle" Hidden="true" />
+      <Method Name="buttonNewGoogle_Click" Hidden="true" />
+      <Field Name="buttonNewLocal" Hidden="true" />
+      <Field Name="buttonRestoreLoad" Hidden="true" />
+      <Method Name="buttonRestoreLoad_Click" Hidden="true" />
+      <Field Name="labelLoadBackup" Hidden="true" />
+      <Field Name="labelMakeGoogle" Hidden="true" />
+      <Field Name="labelMakeLocal" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>gSAIEAAACiAAAAAEBQCICwASCAJOAICAQUAAQiAJAgA=</HashCode>
+      <FileName>Options\Options.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Faktury.Program">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="GoogleAPI" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Faktury.Properties.Settings">
+    <Position X="11" Y="27.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Default" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GetNBPRates">
+    <Position X="8.5" Y="27.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAIAAAAAAAAAAAEQIAQAAAECAAQAAAAAQA=</HashCode>
+      <FileName>Utils\GetNBPRates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Faktury.Utils.Data">
+    <Position X="24.5" Y="12.5" Width="1.75" />
+    <NestedTypes>
+      <Delegate Name="Faktury.Utils.Data.OnItemChanged" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Utils\Data.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Faktury.Utils.Data.OnContractorChange" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Utils\Data.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Faktury.Utils.Data.OnInvoiceChanged" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Utils\Data.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Faktury.Utils.Data.OnConfigChanged" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Utils\Data.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <AssociationLine Name="ContractorInEditing" Type="Faktury.Items.Contractor">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.05" Y="0.29" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Invoices" Type="Faktury.Items.Invoice">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.11" Y="0.269" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="ItemInEditing" Type="Faktury.Items.Item" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="25.5" Y="12.5" />
+        <Point X="25.5" Y="11.975" />
+        <Point X="25.792" Y="11.975" Type="JumpStart" />
+        <Point X="25.958" Y="11.975" Type="JumpEnd" />
+        <Point X="26.042" Y="11.975" Type="JumpStart" />
+        <Point X="26.208" Y="11.975" Type="JumpEnd" />
+        <Point X="28.656" Y="11.975" />
+        <Point X="28.656" Y="6.709" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Items" Type="Faktury.Items.Item" ManuallyRouted="true">
+      <Path>
+        <Point X="25.377" Y="12.5" />
+        <Point X="25.377" Y="11.975" />
+        <Point X="25.792" Y="11.975" Type="JumpStart" />
+        <Point X="25.958" Y="11.975" Type="JumpEnd" />
+        <Point X="26.042" Y="11.975" Type="JumpStart" />
+        <Point X="26.208" Y="11.975" Type="JumpEnd" />
+        <Point X="28.047" Y="11.975" />
+        <Point X="28.047" Y="6.709" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.11" Y="0.269" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Template" Type="Faktury.Items.Invoice">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.095" Y="0.507" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="ItemsToAdd" Type="Faktury.Items.Item">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.11" Y="0.537" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>CABAAAACCkAACACACQAAgAQIACAAQAAAAAAAQOEBAAA=</HashCode>
+      <FileName>Utils\Data.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Config" />
+      <Field Name="ContractorInEditing" />
+      <Field Name="InvoiceInEditing" />
+      <Field Name="ItemInEditing" />
+      <Field Name="Template" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="Contractors" />
+      <Field Name="Invoices" />
+      <Field Name="Items" />
+      <Property Name="ItemsToAdd" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Faktury.Utils.Description">
+    <Position X="16.5" Y="30.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Utils\DisplayUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Faktury.Utils.Utils">
+    <Position X="11.25" Y="31" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AQAACAAAACAAQAIAABAAAAAAAAAABAgAAAAAAICAAAg=</HashCode>
+      <FileName>Utils\DisplayUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Faktury.Utils.FileWriter">
+    <Position X="26.5" Y="12.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgBAABAAABCAAAAAAAAAAAAgAAIAAAAAAAACAASA=</HashCode>
+      <FileName>Utils\FileWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Faktury.Utils.ListViewItemComparer" BaseTypeListCollapsed="true">
+    <Position X="8" Y="32" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAQAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Utils\ListViewItemComparer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Faktury.Utils.MenageUtils">
+    <Position X="16.5" Y="32.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Utils\MenageUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Faktury.Utils.NumberFormatting">
+    <Position X="19.5" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BIAACAAAgAAAAEAAAAABEAAAAAAAAAAAAQAAAAAAgAQ=</HashCode>
+      <FileName>Utils\NumberFormatting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Faktury.Utils.PrintPreview">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utils\PrintPreview.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Faktury.Utils.Sorter" BaseTypeListCollapsed="true">
+    <Position X="18.5" Y="31.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Utils\Sorter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Faktury.Utils.TextWindow">
+    <Position X="14.25" Y="31.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAICAAAAAAAACAAAACAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Utils\TextWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Faktury.Utils.Validate">
+    <Position X="24.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Utils\Validate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Faktury.Utils.XMLSerialization">
+    <Position X="26.5" Y="15.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAEAAA=</HashCode>
+      <FileName>Utils\XMLSerialization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Faktury.Items.EContractorType">
+    <Position X="13.25" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAEAAAgAAAAAAAAgAAA=</HashCode>
+      <FileName>Items\Contractor.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Faktury.Items.EUnitItem">
+    <Position X="19.5" Y="12.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>CACAAAAIAkAAAEAAAABQAAAAAAQAAAAAAAwAAIAAAAA=</HashCode>
+      <FileName>Items\Item.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Faktury.Items.ECurrencyItem">
+    <Position X="19.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\Item.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

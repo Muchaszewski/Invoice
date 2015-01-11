@@ -28,96 +28,96 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBoxQ = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBoxPrice = new System.Windows.Forms.TextBox();
+            this.buttonAdd = new System.Windows.Forms.Button();
+            this.buttonCancel = new System.Windows.Forms.Button();
+            this.textBoxQuantity = new System.Windows.Forms.TextBox();
+            this.labelName = new System.Windows.Forms.Label();
+            this.labelCount = new System.Windows.Forms.Label();
+            this.labelTotalValue = new System.Windows.Forms.Label();
+            this.textBoxTotalValue = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // button1
+            // buttonAdd
             // 
-            this.button1.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.button1.Location = new System.Drawing.Point(214, 56);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Dodaj";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.buttonAdd.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.buttonAdd.Location = new System.Drawing.Point(214, 56);
+            this.buttonAdd.Name = "buttonAdd";
+            this.buttonAdd.Size = new System.Drawing.Size(75, 23);
+            this.buttonAdd.TabIndex = 1;
+            this.buttonAdd.Text = "Dodaj";
+            this.buttonAdd.UseVisualStyleBackColor = true;
+            this.buttonAdd.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // buttonCancel
             // 
-            this.button2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button2.Location = new System.Drawing.Point(133, 56);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Wróć";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.buttonCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.buttonCancel.Location = new System.Drawing.Point(133, 56);
+            this.buttonCancel.Name = "buttonCancel";
+            this.buttonCancel.Size = new System.Drawing.Size(75, 23);
+            this.buttonCancel.TabIndex = 2;
+            this.buttonCancel.Text = "Wróć";
+            this.buttonCancel.UseVisualStyleBackColor = true;
+            this.buttonCancel.Click += new System.EventHandler(this.button2_Click);
             // 
-            // textBoxQ
+            // textBoxQuantity
             // 
-            this.textBoxQ.Location = new System.Drawing.Point(214, 30);
-            this.textBoxQ.Name = "textBoxQ";
-            this.textBoxQ.Size = new System.Drawing.Size(75, 20);
-            this.textBoxQ.TabIndex = 0;
-            this.textBoxQ.Text = "1";
-            this.textBoxQ.TextChanged += new System.EventHandler(this.textBoxQ_TextChanged);
+            this.textBoxQuantity.Location = new System.Drawing.Point(214, 30);
+            this.textBoxQuantity.Name = "textBoxQuantity";
+            this.textBoxQuantity.Size = new System.Drawing.Size(75, 20);
+            this.textBoxQuantity.TabIndex = 0;
+            this.textBoxQuantity.Text = "1";
+            this.textBoxQuantity.TextChanged += new System.EventHandler(this.textBoxQ_TextChanged);
             // 
-            // label1
+            // labelName
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 13);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Nazwa produktu";
+            this.labelName.AutoSize = true;
+            this.labelName.Location = new System.Drawing.Point(12, 9);
+            this.labelName.Name = "labelName";
+            this.labelName.Size = new System.Drawing.Size(85, 13);
+            this.labelName.TabIndex = 3;
+            this.labelName.Text = "Nazwa produktu";
             // 
-            // label2
+            // labelCount
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(179, 33);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(29, 13);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Ilość";
+            this.labelCount.AutoSize = true;
+            this.labelCount.Location = new System.Drawing.Point(179, 33);
+            this.labelCount.Name = "labelCount";
+            this.labelCount.Size = new System.Drawing.Size(29, 13);
+            this.labelCount.TabIndex = 4;
+            this.labelCount.Text = "Ilość";
             // 
-            // label3
+            // labelTotalValue
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 33);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(32, 13);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Cena";
+            this.labelTotalValue.AutoSize = true;
+            this.labelTotalValue.Location = new System.Drawing.Point(12, 33);
+            this.labelTotalValue.Name = "labelTotalValue";
+            this.labelTotalValue.Size = new System.Drawing.Size(32, 13);
+            this.labelTotalValue.TabIndex = 5;
+            this.labelTotalValue.Text = "Cena";
             // 
-            // textBoxPrice
+            // textBoxTotalValue
             // 
-            this.textBoxPrice.Location = new System.Drawing.Point(48, 30);
-            this.textBoxPrice.Name = "textBoxPrice";
-            this.textBoxPrice.ReadOnly = true;
-            this.textBoxPrice.Size = new System.Drawing.Size(93, 20);
-            this.textBoxPrice.TabIndex = 6;
-            this.textBoxPrice.Text = "0,00";
+            this.textBoxTotalValue.Location = new System.Drawing.Point(48, 30);
+            this.textBoxTotalValue.Name = "textBoxTotalValue";
+            this.textBoxTotalValue.ReadOnly = true;
+            this.textBoxTotalValue.Size = new System.Drawing.Size(93, 20);
+            this.textBoxTotalValue.TabIndex = 6;
+            this.textBoxTotalValue.Text = "0,00";
             // 
             // ItemAddToInvoice
             // 
-            this.AcceptButton = this.button1;
+            this.AcceptButton = this.buttonAdd;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.CancelButton = this.button2;
+            this.CancelButton = this.buttonCancel;
             this.ClientSize = new System.Drawing.Size(301, 87);
-            this.Controls.Add(this.textBoxPrice);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBoxQ);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.textBoxTotalValue);
+            this.Controls.Add(this.labelTotalValue);
+            this.Controls.Add(this.labelCount);
+            this.Controls.Add(this.labelName);
+            this.Controls.Add(this.textBoxQuantity);
+            this.Controls.Add(this.buttonCancel);
+            this.Controls.Add(this.buttonAdd);
             this.Name = "ItemAddToInvoice";
             this.Text = "Choose";
             this.Activated += new System.EventHandler(this.textBoxQ_TextChanged);
@@ -128,12 +128,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBoxQ;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBoxPrice;
+        private System.Windows.Forms.Button buttonAdd;
+        private System.Windows.Forms.Button buttonCancel;
+        private System.Windows.Forms.TextBox textBoxQuantity;
+        private System.Windows.Forms.Label labelName;
+        private System.Windows.Forms.Label labelCount;
+        private System.Windows.Forms.Label labelTotalValue;
+        private System.Windows.Forms.TextBox textBoxTotalValue;
     }
 }

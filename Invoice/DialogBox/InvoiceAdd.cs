@@ -91,7 +91,7 @@ namespace Faktury.DialogBox
             textBoxAddNote.Enabled = false;
             comboBoxCurrency.Enabled = false;
             dateTimePickerTable.Enabled = false;
-            checkBox1.Checked = false;
+            checkBoxWarning.Checked = false;
             textBoxPlace.Enabled = false;
         }
 
@@ -128,12 +128,12 @@ namespace Faktury.DialogBox
             }
             if (sInvoice.Warning != "")
             {
-                checkBox1.Checked = true;
+                checkBoxWarning.Checked = true;
                 textBoxWarning.Text = sInvoice.Warning;
             }
             else
             {
-                checkBox1.Checked = false;
+                checkBoxWarning.Checked = false;
             }
 
             if (sInvoice.PaymentInfo != null)
@@ -188,7 +188,7 @@ namespace Faktury.DialogBox
 
         private void RebuildItems()
         {
-            listView1.Items.Clear();
+            listViewItems.Items.Clear();
             decimal tax = 0;
             decimal totalValue = 0;
             decimal totalTaxValue = 0;
@@ -209,7 +209,7 @@ namespace Faktury.DialogBox
                                    Utils.Utils.CalculateTaxQuantityValue(item.Price, item.Tax, item.Quantity) 
                                };
                 var listViewItem = new ListViewItem(row);
-                listView1.Items.Add(listViewItem);
+                listViewItems.Items.Add(listViewItem);
 
                 //Summary
 
@@ -259,9 +259,9 @@ namespace Faktury.DialogBox
                 textBoxTaxDefault.Visible = true;
                 textBoxValueDefault.Visible = true;
                 textBoxTaxValueDefault.Visible = true;
-                labelDefaultCurrency.Visible = true;
-                labelDefaultCurrencyCopy.Visible = true;
-                labelCurrency.Visible = true;
+                labelDefaultTax.Visible = true;
+                labelDefaultPriceCopy.Visible = true;
+                labelCurrencyPrice.Visible = true;
                 textBoxCurrency.Visible = true;
                 textBoxTable.Visible = true;
                 labelDateCurrency.Visible = true;
@@ -272,8 +272,8 @@ namespace Faktury.DialogBox
                     textBoxTaxDefault.Text = Utils.Utils.ConvertToPriceCostum(tax * decimal.Parse(NBPRates.GetCurrenciesRate("EUR")), ECurrencyItem.PLN);
                     textBoxValueDefault.Text = Utils.Utils.ConvertToPriceCostum(totalValue * decimal.Parse(NBPRates.GetCurrenciesRate("EUR")), ECurrencyItem.PLN);
                     textBoxTaxValueDefault.Text = Utils.Utils.ConvertToPriceCostum(totalTaxValue * decimal.Parse(NBPRates.GetCurrenciesRate("EUR")), ECurrencyItem.PLN);
-                    labelDefaultCurrency.Text = "w złotych";
-                    labelDefaultCurrencyCopy.Text = "w złotych";
+                    labelDefaultTax.Text = "w złotych";
+                    labelDefaultPriceCopy.Text = "w złotych";
                 }
 
                 if (Data.Config.ConvertedCurrency == ECurrencyItem.EUR)
@@ -281,8 +281,8 @@ namespace Faktury.DialogBox
                     textBoxTaxDefault.Text = Utils.Utils.ConvertToPriceCostum(tax / decimal.Parse(NBPRates.GetCurrenciesRate("EUR")), ECurrencyItem.EUR);
                     textBoxValueDefault.Text = Utils.Utils.ConvertToPriceCostum(totalValue / decimal.Parse(NBPRates.GetCurrenciesRate("EUR")), ECurrencyItem.EUR);
                     textBoxTaxValueDefault.Text = Utils.Utils.ConvertToPriceCostum(totalTaxValue / decimal.Parse(NBPRates.GetCurrenciesRate("EUR")), ECurrencyItem.EUR);
-                    labelDefaultCurrency.Text = "w euro";
-                    labelDefaultCurrencyCopy.Text = "w euro";
+                    labelDefaultTax.Text = "w euro";
+                    labelDefaultPriceCopy.Text = "w euro";
                 }
             }
             else
@@ -290,9 +290,9 @@ namespace Faktury.DialogBox
                 textBoxTaxDefault.Visible = false;
                 textBoxValueDefault.Visible = false;
                 textBoxTaxValueDefault.Visible = false;
-                labelDefaultCurrency.Visible = false;
-                labelDefaultCurrencyCopy.Visible = false;
-                labelCurrency.Visible = false;
+                labelDefaultTax.Visible = false;
+                labelDefaultPriceCopy.Visible = false;
+                labelCurrencyPrice.Visible = false;
                 textBoxCurrency.Visible = false;
                 textBoxTable.Visible = false;
                 labelDateCurrency.Visible = false;
@@ -392,14 +392,14 @@ namespace Faktury.DialogBox
 
         private void buttonEdit_Click(object sender, EventArgs e)
         {
-            if (listView1.SelectedItems.Count == 0)
+            if (listViewItems.SelectedItems.Count == 0)
             {
                 MessageBox.Show("Nie wybrano żadnego elementu");
             }
             else
             {
                 saved = false;
-                int index = listView1.FocusedItem.Index;
+                int index = listViewItems.FocusedItem.Index;
                 Data.ItemInEditing = sInvoice.Items[index];
                 new ItemAddToInvoice().ShowDialog();
                 sInvoice.Items[index] = Data.ItemInEditing;
@@ -409,14 +409,14 @@ namespace Faktury.DialogBox
 
         private void BDeleteItem_Click(object sender, EventArgs e)
         {
-            if (listView1.SelectedItems.Count == 0)
+            if (listViewItems.SelectedItems.Count == 0)
             {
                 MessageBox.Show("Nie wybrano żadnego elementu");
             }
             else
             {
                 saved = false;
-                int index = listView1.SelectedItems[0].Index;
+                int index = listViewItems.SelectedItems[0].Index;
 
                 DialogResult resault;
                 resault = MessageBox.Show("Czy napewno chcesz usunąć " + sInvoice.Items[index].Name, "Ostrzeżenie", MessageBoxButtons.YesNo);
@@ -435,7 +435,7 @@ namespace Faktury.DialogBox
             ppd.WindowState = FormWindowState.Maximized;
             ppd.PrintPreviewControl.AutoZoom = false;
             ppd.PrintPreviewControl.Zoom = 2.0f;
-            ppd.PrintPreviewControl.Document = printDocument1;
+            ppd.PrintPreviewControl.Document = printDocument;
             ppd.ShowDialog();
         }
 
@@ -460,6 +460,11 @@ namespace Faktury.DialogBox
             if (sInvoice.Contractors[0] == null || sInvoice.Contractors[1] == null)
             {
                 MessageBox.Show("Brakuje Sprzedawcy/Nabywcy");
+            }
+            else if (sInvoice.Items.Count() == 0)
+            {
+                MessageBox.Show("Brakuje produktów");
+
             }
             else
             {
@@ -508,11 +513,11 @@ namespace Faktury.DialogBox
         {
             DialogResult resault;
             PrintDialog pd = new PrintDialog();
-            pd.Document = printDocument1;
+            pd.Document = printDocument;
             resault = pd.ShowDialog();
             if (resault == System.Windows.Forms.DialogResult.OK)
             {
-                printDocument1.Print();
+                printDocument.Print();
             }
         }
 
@@ -528,14 +533,14 @@ namespace Faktury.DialogBox
 
         private void buttonEditItem_Click(object sender, EventArgs e)
         {
-            if (listView1.SelectedItems.Count == 0)
+            if (listViewItems.SelectedItems.Count == 0)
             {
                 MessageBox.Show("Nie wybrano żadnego elementu");
             }
             else
             {
                 saved = false;
-                int index = listView1.FocusedItem.Index;
+                int index = listViewItems.FocusedItem.Index;
                 Data.ItemInEditing = sInvoice.Items[index];
                 new ItemAdd().ShowDialog();
                 sInvoice.Items[index] = Data.ItemInEditing;

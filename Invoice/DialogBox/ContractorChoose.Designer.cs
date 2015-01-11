@@ -28,35 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupBoxContractors = new System.Windows.Forms.GroupBox();
             this.buttonChoose = new System.Windows.Forms.Button();
             this.buttonDeleteContractors = new System.Windows.Forms.Button();
             this.buttonEditContractos = new System.Windows.Forms.Button();
             this.buttonAddContractor = new System.Windows.Forms.Button();
             this.listViewContractors = new System.Windows.Forms.ListView();
-            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader15 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader13 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.groupBox2.SuspendLayout();
+            this.columnHeaderCoName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderType = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderCity = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderStreet = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderPostal = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.groupBoxContractors.SuspendLayout();
             this.SuspendLayout();
             // 
-            // groupBox2
+            // groupBoxContractors
             // 
-            this.groupBox2.Controls.Add(this.buttonChoose);
-            this.groupBox2.Controls.Add(this.buttonDeleteContractors);
-            this.groupBox2.Controls.Add(this.buttonEditContractos);
-            this.groupBox2.Controls.Add(this.buttonAddContractor);
-            this.groupBox2.Controls.Add(this.listViewContractors);
-            this.groupBox2.Location = new System.Drawing.Point(12, 12);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(1078, 414);
-            this.groupBox2.TabIndex = 9;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Kontrahenci";
+            this.groupBoxContractors.Controls.Add(this.buttonChoose);
+            this.groupBoxContractors.Controls.Add(this.buttonDeleteContractors);
+            this.groupBoxContractors.Controls.Add(this.buttonEditContractos);
+            this.groupBoxContractors.Controls.Add(this.buttonAddContractor);
+            this.groupBoxContractors.Controls.Add(this.listViewContractors);
+            this.groupBoxContractors.Location = new System.Drawing.Point(12, 12);
+            this.groupBoxContractors.Name = "groupBoxContractors";
+            this.groupBoxContractors.Size = new System.Drawing.Size(1078, 414);
+            this.groupBoxContractors.TabIndex = 9;
+            this.groupBoxContractors.TabStop = false;
+            this.groupBoxContractors.Text = "Kontrahenci";
             // 
             // buttonChoose
             // 
@@ -101,12 +100,12 @@
             // listViewContractors
             // 
             this.listViewContractors.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader8,
-            this.columnHeader15,
-            this.columnHeader9,
-            this.columnHeader13,
-            this.columnHeader10,
-            this.columnHeader11});
+            this.columnHeaderCoName,
+            this.columnHeaderName,
+            this.columnHeaderType,
+            this.columnHeaderCity,
+            this.columnHeaderStreet,
+            this.columnHeaderPostal});
             this.listViewContractors.FullRowSelect = true;
             this.listViewContractors.HideSelection = false;
             this.listViewContractors.Location = new System.Drawing.Point(12, 19);
@@ -120,63 +119,62 @@
             this.listViewContractors.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.listViewContractors_KeyPress);
             this.listViewContractors.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.listView1_MouseDoubleClick);
             // 
-            // columnHeader8
+            // columnHeaderCoName
             // 
-            this.columnHeader8.Text = "Nazwa firmy";
-            this.columnHeader8.Width = 280;
+            this.columnHeaderCoName.Text = "Nazwa firmy";
+            this.columnHeaderCoName.Width = 280;
             // 
-            // columnHeader15
+            // columnHeaderName
             // 
-            this.columnHeader15.Text = "Nazwa właściciela";
-            this.columnHeader15.Width = 280;
+            this.columnHeaderName.Text = "Nazwa właściciela";
+            this.columnHeaderName.Width = 280;
             // 
-            // columnHeader9
+            // columnHeaderType
             // 
-            this.columnHeader9.Text = "Typ";
-            this.columnHeader9.Width = 80;
+            this.columnHeaderType.Text = "Typ";
+            this.columnHeaderType.Width = 80;
             // 
-            // columnHeader13
+            // columnHeaderCity
             // 
-            this.columnHeader13.Text = "Miejscowość";
-            this.columnHeader13.Width = 100;
+            this.columnHeaderCity.Text = "Miejscowość";
+            this.columnHeaderCity.Width = 100;
             // 
-            // columnHeader10
+            // columnHeaderStreet
             // 
-            this.columnHeader10.Text = "Ulica";
-            this.columnHeader10.Width = 158;
+            this.columnHeaderStreet.Text = "Ulica";
+            this.columnHeaderStreet.Width = 158;
             // 
-            // columnHeader11
+            // columnHeaderPostal
             // 
-            this.columnHeader11.Text = "Kod";
-            this.columnHeader11.Width = 50;
+            this.columnHeaderPostal.Text = "Kod";
+            this.columnHeaderPostal.Width = 50;
             // 
             // ContractorChoose
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1098, 438);
-            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBoxContractors);
             this.Name = "ContractorChoose";
             this.Text = "ContractorChoose";
-            this.groupBox2.ResumeLayout(false);
+            this.groupBoxContractors.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox groupBoxContractors;
         private System.Windows.Forms.Button buttonDeleteContractors;
         private System.Windows.Forms.Button buttonEditContractos;
         private System.Windows.Forms.Button buttonAddContractor;
         private System.Windows.Forms.ListView listViewContractors;
-        private System.Windows.Forms.ColumnHeader columnHeader7;
-        private System.Windows.Forms.ColumnHeader columnHeader8;
-        private System.Windows.Forms.ColumnHeader columnHeader13;
-        private System.Windows.Forms.ColumnHeader columnHeader9;
-        private System.Windows.Forms.ColumnHeader columnHeader10;
-        private System.Windows.Forms.ColumnHeader columnHeader11;
-        private System.Windows.Forms.ColumnHeader columnHeader15;
+        private System.Windows.Forms.ColumnHeader columnHeaderCoName;
+        private System.Windows.Forms.ColumnHeader columnHeaderCity;
+        private System.Windows.Forms.ColumnHeader columnHeaderType;
+        private System.Windows.Forms.ColumnHeader columnHeaderStreet;
+        private System.Windows.Forms.ColumnHeader columnHeaderPostal;
+        private System.Windows.Forms.ColumnHeader columnHeaderName;
         private System.Windows.Forms.Button buttonChoose;
     }
 }

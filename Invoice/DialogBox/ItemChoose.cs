@@ -26,8 +26,8 @@ namespace Faktury.DialogBox
             InitializeComponent();
             RebuildItems();
             Data.onItemChange += RebuildItems;
-            this.listView1.ListViewItemSorter = new ListViewItemComparer(listView1.Columns[1].Index, listView1.Sorting);
-            this.listView1.Sort();
+            this.listViewItems.ListViewItemSorter = new ListViewItemComparer(listViewItems.Columns[1].Index, listViewItems.Sorting);
+            this.listViewItems.Sort();
         }
 
         public static void RebuildItemAddedEventCaller()
@@ -40,13 +40,13 @@ namespace Faktury.DialogBox
 
         private void RebuildItems()
         {
-            listView1.Items.Clear();
+            listViewItems.Items.Clear();
             int counter = 0;
             foreach (var item in Data.Items)
             {
                 string[] row = { (counter + 1).ToString(), item.Name, Description.GetDescription(item.Unit), Utils.Utils.ConvertToDigitsCostum(item.Price), Utils.Utils.ConvertToTax(item.Tax), Utils.Utils.CalculateTaxValue(item.Price, item.Tax), Utils.Utils.CalculateTaxValuePrice(item.Price, item.Tax) };
                 var listViewItem = new ListViewItem(row, counter++);
-                listView1.Items.Add(listViewItem);
+                listViewItems.Items.Add(listViewItem);
             }
         }
 
@@ -63,27 +63,27 @@ namespace Faktury.DialogBox
 
         private void BDeleteItem_Click(object sender, EventArgs e)
         {
-            if (listView1.SelectedItems.Count == 0)
+            if (listViewItems.SelectedItems.Count == 0)
             {
                 MessageBox.Show("Nie wybrano żadnego elementu");
             }
             else
             {
-                int index = listView1.SelectedItems[0].ImageIndex;
+                int index = listViewItems.SelectedItems[0].ImageIndex;
                 Data.DeleteItem(index);
-                listView1.SelectedItems.Clear();
+                listViewItems.SelectedItems.Clear();
             }
         }
 
         private void buttonEdit_Click(object sender, EventArgs e)
         {
-            if (listView1.SelectedItems.Count == 0)
+            if (listViewItems.SelectedItems.Count == 0)
             {
                 MessageBox.Show("Nie wybrano żadnego elementu");
             }
             else
             {
-                int index = listView1.FocusedItem.ImageIndex;
+                int index = listViewItems.FocusedItem.ImageIndex;
                 Data.ItemInEditing = Data.Items[index];
                 new ItemAdd().ShowDialog();
                 Data.Items[index] = Data.ItemInEditing;
@@ -93,13 +93,13 @@ namespace Faktury.DialogBox
 
         private void ChooseItem()
         {
-            if (listView1.SelectedItems.Count == 0)
+            if (listViewItems.SelectedItems.Count == 0)
             {
                 MessageBox.Show("Nie wybrano żadnego elementu");
             }
             else
             {
-                int index = listView1.FocusedItem.ImageIndex;
+                int index = listViewItems.FocusedItem.ImageIndex;
                 Data.ItemInEditing = Data.Items[index];
                 new ItemAddToInvoice().ShowDialog();
 
@@ -124,18 +124,18 @@ namespace Faktury.DialogBox
                 // Set the sort column to the new column.
                 sortColumn = e.Column;
                 // Set the sort order to ascending by default.
-                listView1.Sorting = SortOrder.Ascending;
+                listViewItems.Sorting = SortOrder.Ascending;
             }
             else
             {
                 // Determine what the last sort order was and change it.
-                if (listView1.Sorting == SortOrder.Ascending)
-                    listView1.Sorting = SortOrder.Descending;
+                if (listViewItems.Sorting == SortOrder.Ascending)
+                    listViewItems.Sorting = SortOrder.Descending;
                 else
-                    listView1.Sorting = SortOrder.Ascending;
+                    listViewItems.Sorting = SortOrder.Ascending;
             }
-            listView1.Sort();
-            this.listView1.ListViewItemSorter = new ListViewItemComparer(e.Column, listView1.Sorting);
+            listViewItems.Sort();
+            this.listViewItems.ListViewItemSorter = new ListViewItemComparer(e.Column, listViewItems.Sorting);
 
         }
 
@@ -146,23 +146,23 @@ namespace Faktury.DialogBox
                 int index;
                 if (prevKey != e.KeyChar)
                 {
-                    index = listView1.FindItemWithText(e.KeyChar + "").Index;
+                    index = listViewItems.FindItemWithText(e.KeyChar + "").Index;
                     prevKey = e.KeyChar;
                 }
                 else
                 {
-                    if (listView1.Items[listView1.FocusedItem.Index + 1].SubItems[1].Text[0] == prevKey)
+                    if (listViewItems.Items[listViewItems.FocusedItem.Index + 1].SubItems[1].Text[0] == prevKey)
                     {
-                        index = listView1.FocusedItem.Index + 1;
+                        index = listViewItems.FocusedItem.Index + 1;
                     }
                     else
                     {
-                        index = listView1.FindItemWithText(e.KeyChar + "").Index;
+                        index = listViewItems.FindItemWithText(e.KeyChar + "").Index;
                     }
                 }
-                listView1.Items[index].Selected = true;
-                listView1.Items[index].Focused = true;
-                listView1.Items[index].EnsureVisible();
+                listViewItems.Items[index].Selected = true;
+                listViewItems.Items[index].Focused = true;
+                listViewItems.Items[index].EnsureVisible();
             }
             catch
             {

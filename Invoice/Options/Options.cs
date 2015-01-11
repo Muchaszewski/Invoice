@@ -22,8 +22,7 @@ namespace Faktury
         {
             InitializeComponent();
             populateCurrencyComboBox();
-            textBox1.Text = Data.Config.InvoiceNumer.ToString();
-            textBoxDecimal.Text = Data.Config.DecimalSize.ToString();
+            textBoxNextInvoiceNr.Text = Data.Config.InvoiceNumer.ToString();
             comboBoxCurrency.SelectedIndex = (int)Data.Config.NewDefaultCurrency;
             comboBoxCurrencyDefault.SelectedIndex = (int)Data.Config.ConvertedCurrency;
             comboBoxPayment.SelectedIndex = Data.Config.DefaultPayment;
@@ -33,7 +32,7 @@ namespace Faktury
 
 #if DEBUG
             textBox2.Visible = true;
-            label9.Visible = true;
+            labelCommand.Visible = true;
 #endif
 
             if(Program.GoogleAPI == false)
@@ -53,9 +52,9 @@ namespace Faktury
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            if (Regex.IsMatch(textBox1.Text, @"\d"))
+            if (Regex.IsMatch(textBoxNextInvoiceNr.Text, @"\d"))
             {
-            Data.Config.InvoiceNumer = int.Parse(textBox1.Text);
+            Data.Config.InvoiceNumer = int.Parse(textBoxNextInvoiceNr.Text);
             Data.SaveConfig();
             }
         }
@@ -73,15 +72,6 @@ namespace Faktury
         private void buttonNewGoogle_Click(object sender, EventArgs e)
         {
             GoogleDriveBackup.Make();
-        }
-
-        private void textBoxDecimal_TextChanged(object sender, EventArgs e)
-        {
-            if (Regex.IsMatch(textBoxDecimal.Text, @"\d"))
-            {
-                Data.Config.DecimalSize = int.Parse(textBoxDecimal.Text);
-                Data.SaveConfig();
-            }
         }
 
         private void comboBoxCurrency_SelectedIndexChanged(object sender, EventArgs e)

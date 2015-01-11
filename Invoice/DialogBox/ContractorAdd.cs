@@ -22,7 +22,7 @@ namespace Faktury.DialogBox
         {
             InitializeComponent();
             comboBox1.SelectedIndex = 0;
-            comboBox2.SelectedIndex = 0;
+            comboBoxState.SelectedIndex = 0;
         }
 
         public ContractorAdd(int index)
@@ -36,7 +36,7 @@ namespace Faktury.DialogBox
             textBoxREGON.Text = item.REGON;
             textBoxBancAccName.Text = item.BankAccName;
             textBoxBank.Text = item.BankAcc;
-            comboBox2.SelectedIndex = comboBox2.FindString(item.Province);
+            comboBoxState.SelectedIndex = comboBoxState.FindString(item.Province);
             textBoxCity.Text = item.City;
             textBoxStreet.Text = item.Street;
             textBoxPostCode1.Text = item.PostCode[0] + "" + item.PostCode[1];
@@ -62,7 +62,7 @@ namespace Faktury.DialogBox
             item.REGON = textBoxREGON.Text;
             item.BankAcc = textBoxBank.Text;
             item.BankAccName = textBoxBancAccName.Text;
-            item.Province = comboBox2.SelectedText;
+            item.Province = comboBoxState.SelectedText;
             item.City = textBoxCity.Text;
             item.Street = textBoxStreet.Text;
             item.PostCode = textBoxPostCode1.Text + "-" + textBoxPostCode2.Text;

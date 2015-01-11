@@ -28,109 +28,109 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.groupBox = new System.Windows.Forms.GroupBox();
+            this.buttonChoose = new System.Windows.Forms.Button();
+            this.listViewItems = new System.Windows.Forms.ListView();
+            this.columnHeaderId = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderUnit = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderPrice = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderTax = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderTaxValue = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderValue = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.buttonEditItem = new System.Windows.Forms.Button();
-            this.BDeleteItem = new System.Windows.Forms.Button();
-            this.BAddItem = new System.Windows.Forms.Button();
-            this.groupBox1.SuspendLayout();
+            this.buttonDeleteItem = new System.Windows.Forms.Button();
+            this.buttonAddItem = new System.Windows.Forms.Button();
+            this.groupBox.SuspendLayout();
             this.SuspendLayout();
             // 
-            // groupBox1
+            // groupBox
             // 
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.listView1);
-            this.groupBox1.Controls.Add(this.buttonEditItem);
-            this.groupBox1.Controls.Add(this.BDeleteItem);
-            this.groupBox1.Controls.Add(this.BAddItem);
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(771, 368);
-            this.groupBox1.TabIndex = 8;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Produkty/Usługi";
+            this.groupBox.Controls.Add(this.buttonChoose);
+            this.groupBox.Controls.Add(this.listViewItems);
+            this.groupBox.Controls.Add(this.buttonEditItem);
+            this.groupBox.Controls.Add(this.buttonDeleteItem);
+            this.groupBox.Controls.Add(this.buttonAddItem);
+            this.groupBox.Location = new System.Drawing.Point(12, 12);
+            this.groupBox.Name = "groupBox";
+            this.groupBox.Size = new System.Drawing.Size(771, 368);
+            this.groupBox.TabIndex = 8;
+            this.groupBox.TabStop = false;
+            this.groupBox.Text = "Produkty/Usługi";
             // 
-            // button1
+            // buttonChoose
             // 
-            this.button1.Location = new System.Drawing.Point(689, 77);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 58);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Wybierz";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.buttonChoose.Location = new System.Drawing.Point(689, 77);
+            this.buttonChoose.Name = "buttonChoose";
+            this.buttonChoose.Size = new System.Drawing.Size(75, 58);
+            this.buttonChoose.TabIndex = 7;
+            this.buttonChoose.Text = "Wybierz";
+            this.buttonChoose.UseVisualStyleBackColor = true;
+            this.buttonChoose.Click += new System.EventHandler(this.button1_Click);
             // 
-            // listView1
+            // listViewItems
             // 
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader7,
-            this.columnHeader1,
-            this.columnHeader3,
-            this.columnHeader2,
-            this.columnHeader4,
-            this.columnHeader5,
-            this.columnHeader6});
-            this.listView1.FullRowSelect = true;
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(6, 19);
-            this.listView1.MultiSelect = false;
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(677, 343);
-            this.listView1.Sorting = System.Windows.Forms.SortOrder.Ascending;
-            this.listView1.TabIndex = 5;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.Details;
-            this.listView1.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.listView1_ColumnClick);
-            this.listView1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.listView1_KeyPress);
-            this.listView1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.listView1_MousedecimalClick);
+            this.listViewItems.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeaderId,
+            this.columnHeaderName,
+            this.columnHeaderUnit,
+            this.columnHeaderPrice,
+            this.columnHeaderTax,
+            this.columnHeaderTaxValue,
+            this.columnHeaderValue});
+            this.listViewItems.FullRowSelect = true;
+            this.listViewItems.HideSelection = false;
+            this.listViewItems.Location = new System.Drawing.Point(6, 19);
+            this.listViewItems.MultiSelect = false;
+            this.listViewItems.Name = "listViewItems";
+            this.listViewItems.Size = new System.Drawing.Size(677, 343);
+            this.listViewItems.Sorting = System.Windows.Forms.SortOrder.Ascending;
+            this.listViewItems.TabIndex = 5;
+            this.listViewItems.UseCompatibleStateImageBehavior = false;
+            this.listViewItems.View = System.Windows.Forms.View.Details;
+            this.listViewItems.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.listView1_ColumnClick);
+            this.listViewItems.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.listView1_KeyPress);
+            this.listViewItems.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.listView1_MousedecimalClick);
             // 
-            // columnHeader7
+            // columnHeaderId
             // 
-            this.columnHeader7.Text = "Id";
-            this.columnHeader7.Width = 30;
+            this.columnHeaderId.Text = "Id";
+            this.columnHeaderId.Width = 30;
             // 
-            // columnHeader1
+            // columnHeaderName
             // 
-            this.columnHeader1.Text = "Nazwa";
-            this.columnHeader1.Width = 280;
+            this.columnHeaderName.Text = "Nazwa";
+            this.columnHeaderName.Width = 280;
             // 
-            // columnHeader3
+            // columnHeaderUnit
             // 
-            this.columnHeader3.Text = "J.m";
-            this.columnHeader3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader3.Width = 32;
+            this.columnHeaderUnit.Text = "J.m";
+            this.columnHeaderUnit.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeaderUnit.Width = 32;
             // 
-            // columnHeader2
+            // columnHeaderPrice
             // 
-            this.columnHeader2.Text = "Cena Netto";
-            this.columnHeader2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader2.Width = 67;
+            this.columnHeaderPrice.Text = "Cena Netto";
+            this.columnHeaderPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeaderPrice.Width = 67;
             // 
-            // columnHeader4
+            // columnHeaderTax
             // 
-            this.columnHeader4.Text = "Stawka VAT(%)";
-            this.columnHeader4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader4.Width = 93;
+            this.columnHeaderTax.Text = "Stawka VAT(%)";
+            this.columnHeaderTax.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeaderTax.Width = 93;
             // 
-            // columnHeader5
+            // columnHeaderTaxValue
             // 
-            this.columnHeader5.Text = "Kwota VAT(zł)";
-            this.columnHeader5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader5.Width = 84;
+            this.columnHeaderTaxValue.Text = "Kwota VAT(zł)";
+            this.columnHeaderTaxValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeaderTaxValue.Width = 84;
             // 
-            // columnHeader6
+            // columnHeaderValue
             // 
-            this.columnHeader6.Text = "Cena Brutto";
-            this.columnHeader6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader6.Width = 69;
+            this.columnHeaderValue.Text = "Cena Brutto";
+            this.columnHeaderValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeaderValue.Width = 69;
             // 
             // buttonEditItem
             // 
@@ -142,53 +142,53 @@
             this.buttonEditItem.UseVisualStyleBackColor = true;
             this.buttonEditItem.Click += new System.EventHandler(this.buttonEdit_Click);
             // 
-            // BDeleteItem
+            // buttonDeleteItem
             // 
-            this.BDeleteItem.Location = new System.Drawing.Point(689, 339);
-            this.BDeleteItem.Name = "BDeleteItem";
-            this.BDeleteItem.Size = new System.Drawing.Size(75, 23);
-            this.BDeleteItem.TabIndex = 4;
-            this.BDeleteItem.Text = "Usuń";
-            this.BDeleteItem.UseVisualStyleBackColor = true;
-            this.BDeleteItem.Click += new System.EventHandler(this.BDeleteItem_Click);
+            this.buttonDeleteItem.Location = new System.Drawing.Point(689, 339);
+            this.buttonDeleteItem.Name = "buttonDeleteItem";
+            this.buttonDeleteItem.Size = new System.Drawing.Size(75, 23);
+            this.buttonDeleteItem.TabIndex = 4;
+            this.buttonDeleteItem.Text = "Usuń";
+            this.buttonDeleteItem.UseVisualStyleBackColor = true;
+            this.buttonDeleteItem.Click += new System.EventHandler(this.BDeleteItem_Click);
             // 
-            // BAddItem
+            // buttonAddItem
             // 
-            this.BAddItem.Location = new System.Drawing.Point(689, 19);
-            this.BAddItem.Name = "BAddItem";
-            this.BAddItem.Size = new System.Drawing.Size(75, 23);
-            this.BAddItem.TabIndex = 2;
-            this.BAddItem.Text = "Dodaj";
-            this.BAddItem.UseVisualStyleBackColor = true;
-            this.BAddItem.Click += new System.EventHandler(this.BAddItem_Click);
+            this.buttonAddItem.Location = new System.Drawing.Point(689, 19);
+            this.buttonAddItem.Name = "buttonAddItem";
+            this.buttonAddItem.Size = new System.Drawing.Size(75, 23);
+            this.buttonAddItem.TabIndex = 2;
+            this.buttonAddItem.Text = "Dodaj";
+            this.buttonAddItem.UseVisualStyleBackColor = true;
+            this.buttonAddItem.Click += new System.EventHandler(this.BAddItem_Click);
             // 
             // ItemChoose
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(795, 392);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.groupBox);
             this.Name = "ItemChoose";
             this.Text = "ItemChoose";
-            this.groupBox1.ResumeLayout(false);
+            this.groupBox.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.ColumnHeader columnHeader1;
-        private System.Windows.Forms.ColumnHeader columnHeader3;
-        private System.Windows.Forms.ColumnHeader columnHeader2;
-        private System.Windows.Forms.ColumnHeader columnHeader4;
-        private System.Windows.Forms.ColumnHeader columnHeader5;
-        private System.Windows.Forms.ColumnHeader columnHeader6;
+        private System.Windows.Forms.GroupBox groupBox;
+        private System.Windows.Forms.ListView listViewItems;
+        private System.Windows.Forms.ColumnHeader columnHeaderName;
+        private System.Windows.Forms.ColumnHeader columnHeaderUnit;
+        private System.Windows.Forms.ColumnHeader columnHeaderPrice;
+        private System.Windows.Forms.ColumnHeader columnHeaderTax;
+        private System.Windows.Forms.ColumnHeader columnHeaderTaxValue;
+        private System.Windows.Forms.ColumnHeader columnHeaderValue;
         private System.Windows.Forms.Button buttonEditItem;
-        private System.Windows.Forms.Button BDeleteItem;
-        private System.Windows.Forms.Button BAddItem;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ColumnHeader columnHeader7;
+        private System.Windows.Forms.Button buttonDeleteItem;
+        private System.Windows.Forms.Button buttonAddItem;
+        private System.Windows.Forms.Button buttonChoose;
+        private System.Windows.Forms.ColumnHeader columnHeaderId;
     }
 }

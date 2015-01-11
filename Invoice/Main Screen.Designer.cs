@@ -32,85 +32,85 @@ namespace Faktury
         /// </summary>
         private void InitializeComponent()
         {
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.opcjeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.wyjścieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControl = new System.Windows.Forms.TabControl();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.tabPageInvoice = new System.Windows.Forms.TabPage();
+            this.groupBoxInvoice = new System.Windows.Forms.GroupBox();
+            this.buttonCreateDefaultInvoice = new System.Windows.Forms.Button();
             this.buttonClear = new System.Windows.Forms.Button();
             this.buttonSearch = new System.Windows.Forms.Button();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.labelValueSince = new System.Windows.Forms.Label();
+            this.labelValueFrom = new System.Windows.Forms.Label();
             this.textBoxSince = new System.Windows.Forms.TextBox();
             this.textBoxUntil = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.labelSearchPlace = new System.Windows.Forms.Label();
             this.comboBoxCity = new System.Windows.Forms.ComboBox();
             this.comboBoxPayer = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.labelSearchBuyer = new System.Windows.Forms.Label();
+            this.labelSearchContractor = new System.Windows.Forms.Label();
             this.comboBoxSeller = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.labelDateSince = new System.Windows.Forms.Label();
+            this.labelDateFrom = new System.Windows.Forms.Label();
+            this.dateTimePickerSince = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePickerFrom = new System.Windows.Forms.DateTimePicker();
+            this.labelFilter = new System.Windows.Forms.Label();
+            this.buttonDelete = new System.Windows.Forms.Button();
+            this.buttonEdit = new System.Windows.Forms.Button();
+            this.buttonCreateInvoice = new System.Windows.Forms.Button();
             this.listViewInvoice = new System.Windows.Forms.ListView();
-            this.columnHeader20 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader22 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader25 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader21 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader23 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader24 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.columnHeaderNr = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderData = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderContractor = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderBuyer = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderPlace = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderValue = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.tabPageItems = new System.Windows.Forms.TabPage();
+            this.groupBoxItems = new System.Windows.Forms.GroupBox();
             this.listViewItems = new System.Windows.Forms.ListView();
-            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderId = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderUnit = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderItemPrice = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderTax = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderTaxPrice = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderItemValeu = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.buttonEditItem = new System.Windows.Forms.Button();
-            this.BDeleteItem = new System.Windows.Forms.Button();
-            this.BAddItem = new System.Windows.Forms.Button();
+            this.buttonDeleteItem = new System.Windows.Forms.Button();
+            this.buttonAddItem = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupBoxContractors = new System.Windows.Forms.GroupBox();
             this.buttonDeleteContractors = new System.Windows.Forms.Button();
             this.buttonEditContractos = new System.Windows.Forms.Button();
             this.buttonAddContractor = new System.Windows.Forms.Button();
             this.listViewContractors = new System.Windows.Forms.ListView();
-            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader15 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader13 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.button1 = new System.Windows.Forms.Button();
-            this.menuStrip1.SuspendLayout();
+            this.columnHeaderCoName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderContName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderType = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderCoPlace = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderStreett = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderPostal = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.menuStrip.SuspendLayout();
             this.tabControl.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            this.groupBox4.SuspendLayout();
-            this.tabPage1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
+            this.tabPageInvoice.SuspendLayout();
+            this.groupBoxInvoice.SuspendLayout();
+            this.tabPageItems.SuspendLayout();
+            this.groupBoxItems.SuspendLayout();
             this.tabPage3.SuspendLayout();
-            this.groupBox2.SuspendLayout();
+            this.groupBoxContractors.SuspendLayout();
             this.SuspendLayout();
             // 
-            // menuStrip1
+            // menuStrip
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.opcjeToolStripMenuItem,
             this.wyjścieToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1092, 24);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip.Name = "menuStrip";
+            this.menuStrip.Size = new System.Drawing.Size(1092, 24);
+            this.menuStrip.TabIndex = 0;
+            this.menuStrip.Text = "menuStrip1";
             // 
             // opcjeToolStripMenuItem
             // 
@@ -128,8 +128,8 @@ namespace Faktury
             // 
             // tabControl
             // 
-            this.tabControl.Controls.Add(this.tabPage2);
-            this.tabControl.Controls.Add(this.tabPage1);
+            this.tabControl.Controls.Add(this.tabPageInvoice);
+            this.tabControl.Controls.Add(this.tabPageItems);
             this.tabControl.Controls.Add(this.tabPage3);
             this.tabControl.Location = new System.Drawing.Point(0, 27);
             this.tabControl.Name = "tabControl";
@@ -137,47 +137,57 @@ namespace Faktury
             this.tabControl.Size = new System.Drawing.Size(1094, 590);
             this.tabControl.TabIndex = 9;
             // 
-            // tabPage2
+            // tabPageInvoice
             // 
-            this.tabPage2.BackColor = System.Drawing.SystemColors.Control;
-            this.tabPage2.Controls.Add(this.groupBox4);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1086, 564);
-            this.tabPage2.TabIndex = 0;
-            this.tabPage2.Text = "Faktury";
+            this.tabPageInvoice.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPageInvoice.Controls.Add(this.groupBoxInvoice);
+            this.tabPageInvoice.Location = new System.Drawing.Point(4, 22);
+            this.tabPageInvoice.Name = "tabPageInvoice";
+            this.tabPageInvoice.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageInvoice.Size = new System.Drawing.Size(1086, 564);
+            this.tabPageInvoice.TabIndex = 0;
+            this.tabPageInvoice.Text = "Faktury";
             // 
-            // groupBox4
+            // groupBoxInvoice
             // 
-            this.groupBox4.Controls.Add(this.button1);
-            this.groupBox4.Controls.Add(this.buttonClear);
-            this.groupBox4.Controls.Add(this.buttonSearch);
-            this.groupBox4.Controls.Add(this.label8);
-            this.groupBox4.Controls.Add(this.label7);
-            this.groupBox4.Controls.Add(this.textBoxSince);
-            this.groupBox4.Controls.Add(this.textBoxUntil);
-            this.groupBox4.Controls.Add(this.label6);
-            this.groupBox4.Controls.Add(this.comboBoxCity);
-            this.groupBox4.Controls.Add(this.comboBoxPayer);
-            this.groupBox4.Controls.Add(this.label5);
-            this.groupBox4.Controls.Add(this.label4);
-            this.groupBox4.Controls.Add(this.comboBoxSeller);
-            this.groupBox4.Controls.Add(this.label3);
-            this.groupBox4.Controls.Add(this.label2);
-            this.groupBox4.Controls.Add(this.dateTimePicker2);
-            this.groupBox4.Controls.Add(this.dateTimePicker1);
-            this.groupBox4.Controls.Add(this.label1);
-            this.groupBox4.Controls.Add(this.button6);
-            this.groupBox4.Controls.Add(this.button5);
-            this.groupBox4.Controls.Add(this.button4);
-            this.groupBox4.Controls.Add(this.listViewInvoice);
-            this.groupBox4.Location = new System.Drawing.Point(8, 6);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(1068, 555);
-            this.groupBox4.TabIndex = 0;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Faktury";
+            this.groupBoxInvoice.Controls.Add(this.buttonCreateDefaultInvoice);
+            this.groupBoxInvoice.Controls.Add(this.buttonClear);
+            this.groupBoxInvoice.Controls.Add(this.buttonSearch);
+            this.groupBoxInvoice.Controls.Add(this.labelValueSince);
+            this.groupBoxInvoice.Controls.Add(this.labelValueFrom);
+            this.groupBoxInvoice.Controls.Add(this.textBoxSince);
+            this.groupBoxInvoice.Controls.Add(this.textBoxUntil);
+            this.groupBoxInvoice.Controls.Add(this.labelSearchPlace);
+            this.groupBoxInvoice.Controls.Add(this.comboBoxCity);
+            this.groupBoxInvoice.Controls.Add(this.comboBoxPayer);
+            this.groupBoxInvoice.Controls.Add(this.labelSearchBuyer);
+            this.groupBoxInvoice.Controls.Add(this.labelSearchContractor);
+            this.groupBoxInvoice.Controls.Add(this.comboBoxSeller);
+            this.groupBoxInvoice.Controls.Add(this.labelDateSince);
+            this.groupBoxInvoice.Controls.Add(this.labelDateFrom);
+            this.groupBoxInvoice.Controls.Add(this.dateTimePickerSince);
+            this.groupBoxInvoice.Controls.Add(this.dateTimePickerFrom);
+            this.groupBoxInvoice.Controls.Add(this.labelFilter);
+            this.groupBoxInvoice.Controls.Add(this.buttonDelete);
+            this.groupBoxInvoice.Controls.Add(this.buttonEdit);
+            this.groupBoxInvoice.Controls.Add(this.buttonCreateInvoice);
+            this.groupBoxInvoice.Controls.Add(this.listViewInvoice);
+            this.groupBoxInvoice.Location = new System.Drawing.Point(8, 6);
+            this.groupBoxInvoice.Name = "groupBoxInvoice";
+            this.groupBoxInvoice.Size = new System.Drawing.Size(1068, 555);
+            this.groupBoxInvoice.TabIndex = 0;
+            this.groupBoxInvoice.TabStop = false;
+            this.groupBoxInvoice.Text = "Faktury";
+            // 
+            // buttonCreateDefaultInvoice
+            // 
+            this.buttonCreateDefaultInvoice.Location = new System.Drawing.Point(987, 97);
+            this.buttonCreateDefaultInvoice.Name = "buttonCreateDefaultInvoice";
+            this.buttonCreateDefaultInvoice.Size = new System.Drawing.Size(75, 44);
+            this.buttonCreateDefaultInvoice.TabIndex = 21;
+            this.buttonCreateDefaultInvoice.Text = "Utwórz domyślną";
+            this.buttonCreateDefaultInvoice.UseVisualStyleBackColor = true;
+            this.buttonCreateDefaultInvoice.Click += new System.EventHandler(this.button1_Click);
             // 
             // buttonClear
             // 
@@ -199,23 +209,23 @@ namespace Faktury
             this.buttonSearch.UseVisualStyleBackColor = true;
             this.buttonSearch.Click += new System.EventHandler(this.buttonSearch_Click);
             // 
-            // label8
+            // labelValueSince
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(861, 45);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(21, 13);
-            this.label8.TabIndex = 18;
-            this.label8.Text = "Do";
+            this.labelValueSince.AutoSize = true;
+            this.labelValueSince.Location = new System.Drawing.Point(861, 45);
+            this.labelValueSince.Name = "labelValueSince";
+            this.labelValueSince.Size = new System.Drawing.Size(21, 13);
+            this.labelValueSince.TabIndex = 18;
+            this.labelValueSince.Text = "Do";
             // 
-            // label7
+            // labelValueFrom
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(861, 16);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(21, 13);
-            this.label7.TabIndex = 17;
-            this.label7.Text = "Od";
+            this.labelValueFrom.AutoSize = true;
+            this.labelValueFrom.Location = new System.Drawing.Point(861, 16);
+            this.labelValueFrom.Name = "labelValueFrom";
+            this.labelValueFrom.Size = new System.Drawing.Size(21, 13);
+            this.labelValueFrom.TabIndex = 17;
+            this.labelValueFrom.Text = "Od";
             // 
             // textBoxSince
             // 
@@ -233,14 +243,14 @@ namespace Faktury
             this.textBoxUntil.TabIndex = 15;
             this.textBoxUntil.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
             // 
-            // label6
+            // labelSearchPlace
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(752, 22);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(103, 13);
-            this.label6.TabIndex = 14;
-            this.label6.Text = "Miejsce wystawienia";
+            this.labelSearchPlace.AutoSize = true;
+            this.labelSearchPlace.Location = new System.Drawing.Point(752, 22);
+            this.labelSearchPlace.Name = "labelSearchPlace";
+            this.labelSearchPlace.Size = new System.Drawing.Size(103, 13);
+            this.labelSearchPlace.TabIndex = 14;
+            this.labelSearchPlace.Text = "Miejsce wystawienia";
             // 
             // comboBoxCity
             // 
@@ -262,23 +272,23 @@ namespace Faktury
             this.comboBoxPayer.Size = new System.Drawing.Size(296, 21);
             this.comboBoxPayer.TabIndex = 12;
             // 
-            // label5
+            // labelSearchBuyer
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(450, 22);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(50, 13);
-            this.label5.TabIndex = 11;
-            this.label5.Text = "Odbiorca";
+            this.labelSearchBuyer.AutoSize = true;
+            this.labelSearchBuyer.Location = new System.Drawing.Point(450, 22);
+            this.labelSearchBuyer.Name = "labelSearchBuyer";
+            this.labelSearchBuyer.Size = new System.Drawing.Size(50, 13);
+            this.labelSearchBuyer.TabIndex = 11;
+            this.labelSearchBuyer.Text = "Odbiorca";
             // 
-            // label4
+            // labelSearchContractor
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(152, 22);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(57, 13);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "Wystawca";
+            this.labelSearchContractor.AutoSize = true;
+            this.labelSearchContractor.Location = new System.Drawing.Point(152, 22);
+            this.labelSearchContractor.Name = "labelSearchContractor";
+            this.labelSearchContractor.Size = new System.Drawing.Size(57, 13);
+            this.labelSearchContractor.TabIndex = 10;
+            this.labelSearchContractor.Text = "Wystawca";
             // 
             // comboBoxSeller
             // 
@@ -290,91 +300,91 @@ namespace Faktury
             this.comboBoxSeller.Size = new System.Drawing.Size(292, 21);
             this.comboBoxSeller.TabIndex = 9;
             // 
-            // label3
+            // labelDateSince
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(45, 48);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(21, 13);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "Do";
+            this.labelDateSince.AutoSize = true;
+            this.labelDateSince.Location = new System.Drawing.Point(45, 48);
+            this.labelDateSince.Name = "labelDateSince";
+            this.labelDateSince.Size = new System.Drawing.Size(21, 13);
+            this.labelDateSince.TabIndex = 8;
+            this.labelDateSince.Text = "Do";
             // 
-            // label2
+            // labelDateFrom
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(45, 22);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(21, 13);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Od";
+            this.labelDateFrom.AutoSize = true;
+            this.labelDateFrom.Location = new System.Drawing.Point(45, 22);
+            this.labelDateFrom.Name = "labelDateFrom";
+            this.labelDateFrom.Size = new System.Drawing.Size(21, 13);
+            this.labelDateFrom.TabIndex = 7;
+            this.labelDateFrom.Text = "Od";
             // 
-            // dateTimePicker2
+            // dateTimePickerSince
             // 
-            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker2.Location = new System.Drawing.Point(72, 42);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(77, 20);
-            this.dateTimePicker2.TabIndex = 6;
-            this.dateTimePicker2.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged);
+            this.dateTimePickerSince.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePickerSince.Location = new System.Drawing.Point(72, 42);
+            this.dateTimePickerSince.Name = "dateTimePickerSince";
+            this.dateTimePickerSince.Size = new System.Drawing.Size(77, 20);
+            this.dateTimePickerSince.TabIndex = 6;
+            this.dateTimePickerSince.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged);
             // 
-            // dateTimePicker1
+            // dateTimePickerFrom
             // 
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(72, 16);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(77, 20);
-            this.dateTimePicker1.TabIndex = 5;
-            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            this.dateTimePickerFrom.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePickerFrom.Location = new System.Drawing.Point(72, 16);
+            this.dateTimePickerFrom.Name = "dateTimePickerFrom";
+            this.dateTimePickerFrom.Size = new System.Drawing.Size(77, 20);
+            this.dateTimePickerFrom.TabIndex = 5;
+            this.dateTimePickerFrom.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
-            // label1
+            // labelFilter
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(9, 16);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(34, 13);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Filtry";
+            this.labelFilter.AutoSize = true;
+            this.labelFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.labelFilter.Location = new System.Drawing.Point(9, 16);
+            this.labelFilter.Name = "labelFilter";
+            this.labelFilter.Size = new System.Drawing.Size(34, 13);
+            this.labelFilter.TabIndex = 4;
+            this.labelFilter.Text = "Filtry";
             // 
-            // button6
+            // buttonDelete
             // 
-            this.button6.Location = new System.Drawing.Point(987, 525);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 3;
-            this.button6.Text = "Usuń";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.buttonDelete.Location = new System.Drawing.Point(987, 525);
+            this.buttonDelete.Name = "buttonDelete";
+            this.buttonDelete.Size = new System.Drawing.Size(75, 23);
+            this.buttonDelete.TabIndex = 3;
+            this.buttonDelete.Text = "Usuń";
+            this.buttonDelete.UseVisualStyleBackColor = true;
+            this.buttonDelete.Click += new System.EventHandler(this.button6_Click);
             // 
-            // button5
+            // buttonEdit
             // 
-            this.button5.Location = new System.Drawing.Point(987, 147);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 2;
-            this.button5.Text = "Edytuj";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click_1);
+            this.buttonEdit.Location = new System.Drawing.Point(987, 147);
+            this.buttonEdit.Name = "buttonEdit";
+            this.buttonEdit.Size = new System.Drawing.Size(75, 23);
+            this.buttonEdit.TabIndex = 2;
+            this.buttonEdit.Text = "Edytuj";
+            this.buttonEdit.UseVisualStyleBackColor = true;
+            this.buttonEdit.Click += new System.EventHandler(this.button5_Click_1);
             // 
-            // button4
+            // buttonCreateInvoice
             // 
-            this.button4.Location = new System.Drawing.Point(987, 68);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 1;
-            this.button4.Text = "Utwórz";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click_1);
+            this.buttonCreateInvoice.Location = new System.Drawing.Point(987, 68);
+            this.buttonCreateInvoice.Name = "buttonCreateInvoice";
+            this.buttonCreateInvoice.Size = new System.Drawing.Size(75, 23);
+            this.buttonCreateInvoice.TabIndex = 1;
+            this.buttonCreateInvoice.Text = "Utwórz";
+            this.buttonCreateInvoice.UseVisualStyleBackColor = true;
+            this.buttonCreateInvoice.Click += new System.EventHandler(this.button4_Click_1);
             // 
             // listViewInvoice
             // 
             this.listViewInvoice.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader20,
-            this.columnHeader22,
-            this.columnHeader25,
-            this.columnHeader21,
-            this.columnHeader23,
-            this.columnHeader24});
+            this.columnHeaderNr,
+            this.columnHeaderData,
+            this.columnHeaderContractor,
+            this.columnHeaderBuyer,
+            this.columnHeaderPlace,
+            this.columnHeaderValue});
             this.listViewInvoice.Cursor = System.Windows.Forms.Cursors.Default;
             this.listViewInvoice.FullRowSelect = true;
             this.listViewInvoice.HideSelection = false;
@@ -389,75 +399,75 @@ namespace Faktury
             this.listViewInvoice.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.listView4_ColumnClick);
             this.listViewInvoice.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.listView4_MouseDoubleClick);
             // 
-            // columnHeader20
+            // columnHeaderNr
             // 
-            this.columnHeader20.Tag = "Numeric";
-            this.columnHeader20.Text = "Nr.";
-            this.columnHeader20.Width = 32;
+            this.columnHeaderNr.Tag = "Numeric";
+            this.columnHeaderNr.Text = "Nr.";
+            this.columnHeaderNr.Width = 32;
             // 
-            // columnHeader22
+            // columnHeaderData
             // 
-            this.columnHeader22.Text = "Data";
-            this.columnHeader22.Width = 115;
+            this.columnHeaderData.Text = "Data";
+            this.columnHeaderData.Width = 115;
             // 
-            // columnHeader25
+            // columnHeaderContractor
             // 
-            this.columnHeader25.Text = "Wystawca";
-            this.columnHeader25.Width = 300;
+            this.columnHeaderContractor.Text = "Wystawca";
+            this.columnHeaderContractor.Width = 300;
             // 
-            // columnHeader21
+            // columnHeaderBuyer
             // 
-            this.columnHeader21.Text = "Odbiorca";
-            this.columnHeader21.Width = 300;
+            this.columnHeaderBuyer.Text = "Odbiorca";
+            this.columnHeaderBuyer.Width = 300;
             // 
-            // columnHeader23
+            // columnHeaderPlace
             // 
-            this.columnHeader23.Text = "Miejsce wystawienia";
-            this.columnHeader23.Width = 110;
+            this.columnHeaderPlace.Text = "Miejsce wystawienia";
+            this.columnHeaderPlace.Width = 110;
             // 
-            // columnHeader24
+            // columnHeaderValue
             // 
-            this.columnHeader24.Tag = "Price";
-            this.columnHeader24.Text = "Wartość Brutto";
-            this.columnHeader24.Width = 91;
+            this.columnHeaderValue.Tag = "Price";
+            this.columnHeaderValue.Text = "Wartość Brutto";
+            this.columnHeaderValue.Width = 91;
             // 
-            // tabPage1
+            // tabPageItems
             // 
-            this.tabPage1.BackColor = System.Drawing.SystemColors.Control;
-            this.tabPage1.Controls.Add(this.groupBox1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1086, 564);
-            this.tabPage1.TabIndex = 1;
-            this.tabPage1.Text = "Produkty";
+            this.tabPageItems.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPageItems.Controls.Add(this.groupBoxItems);
+            this.tabPageItems.Location = new System.Drawing.Point(4, 22);
+            this.tabPageItems.Name = "tabPageItems";
+            this.tabPageItems.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageItems.Size = new System.Drawing.Size(1086, 564);
+            this.tabPageItems.TabIndex = 1;
+            this.tabPageItems.Text = "Produkty";
             // 
-            // groupBox1
+            // groupBoxItems
             // 
-            this.groupBox1.Controls.Add(this.listViewItems);
-            this.groupBox1.Controls.Add(this.buttonEditItem);
-            this.groupBox1.Controls.Add(this.BDeleteItem);
-            this.groupBox1.Controls.Add(this.BAddItem);
-            this.groupBox1.Location = new System.Drawing.Point(6, 6);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1070, 552);
-            this.groupBox1.TabIndex = 9;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Produkty/Usługi";
+            this.groupBoxItems.Controls.Add(this.listViewItems);
+            this.groupBoxItems.Controls.Add(this.buttonEditItem);
+            this.groupBoxItems.Controls.Add(this.buttonDeleteItem);
+            this.groupBoxItems.Controls.Add(this.buttonAddItem);
+            this.groupBoxItems.Location = new System.Drawing.Point(6, 6);
+            this.groupBoxItems.Name = "groupBoxItems";
+            this.groupBoxItems.Size = new System.Drawing.Size(1070, 552);
+            this.groupBoxItems.TabIndex = 9;
+            this.groupBoxItems.TabStop = false;
+            this.groupBoxItems.Text = "Produkty/Usługi";
             // 
             // listViewItems
             // 
             this.listViewItems.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader7,
-            this.columnHeader1,
-            this.columnHeader3,
-            this.columnHeader2,
-            this.columnHeader4,
-            this.columnHeader5,
-            this.columnHeader6});
+            this.columnHeaderId,
+            this.columnHeaderName,
+            this.columnHeaderUnit,
+            this.columnHeaderItemPrice,
+            this.columnHeaderTax,
+            this.columnHeaderTaxPrice,
+            this.columnHeaderItemValeu});
             this.listViewItems.FullRowSelect = true;
             this.listViewItems.HideSelection = false;
-            this.listViewItems.Location = new System.Drawing.Point(6, 18);
+            this.listViewItems.Location = new System.Drawing.Point(6, 19);
             this.listViewItems.MultiSelect = false;
             this.listViewItems.Name = "listViewItems";
             this.listViewItems.Size = new System.Drawing.Size(977, 534);
@@ -469,49 +479,49 @@ namespace Faktury
             this.listViewItems.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.listViewItems_KeyPress);
             this.listViewItems.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.listViewItems_MouseDoubleClick);
             // 
-            // columnHeader7
+            // columnHeaderId
             // 
-            this.columnHeader7.Tag = "Numeric";
-            this.columnHeader7.Text = "Id";
-            this.columnHeader7.Width = 30;
+            this.columnHeaderId.Tag = "Numeric";
+            this.columnHeaderId.Text = "Id";
+            this.columnHeaderId.Width = 30;
             // 
-            // columnHeader1
+            // columnHeaderName
             // 
-            this.columnHeader1.Text = "Nazwa";
-            this.columnHeader1.Width = 581;
+            this.columnHeaderName.Text = "Nazwa";
+            this.columnHeaderName.Width = 581;
             // 
-            // columnHeader3
+            // columnHeaderUnit
             // 
-            this.columnHeader3.Text = "J.m";
-            this.columnHeader3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader3.Width = 32;
+            this.columnHeaderUnit.Text = "J.m";
+            this.columnHeaderUnit.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeaderUnit.Width = 32;
             // 
-            // columnHeader2
+            // columnHeaderItemPrice
             // 
-            this.columnHeader2.Tag = "Numeric";
-            this.columnHeader2.Text = "Cena Netto";
-            this.columnHeader2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader2.Width = 67;
+            this.columnHeaderItemPrice.Tag = "Numeric";
+            this.columnHeaderItemPrice.Text = "Cena Netto";
+            this.columnHeaderItemPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeaderItemPrice.Width = 67;
             // 
-            // columnHeader4
+            // columnHeaderTax
             // 
-            this.columnHeader4.Text = "Stawka VAT(%)";
-            this.columnHeader4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader4.Width = 93;
+            this.columnHeaderTax.Text = "Stawka VAT(%)";
+            this.columnHeaderTax.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeaderTax.Width = 93;
             // 
-            // columnHeader5
+            // columnHeaderTaxPrice
             // 
-            this.columnHeader5.Tag = "Numeric";
-            this.columnHeader5.Text = "Kwota VAT";
-            this.columnHeader5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader5.Width = 84;
+            this.columnHeaderTaxPrice.Tag = "Numeric";
+            this.columnHeaderTaxPrice.Text = "Kwota VAT";
+            this.columnHeaderTaxPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeaderTaxPrice.Width = 84;
             // 
-            // columnHeader6
+            // columnHeaderItemValeu
             // 
-            this.columnHeader6.Tag = "Price";
-            this.columnHeader6.Text = "Cena Brutto";
-            this.columnHeader6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader6.Width = 69;
+            this.columnHeaderItemValeu.Tag = "Price";
+            this.columnHeaderItemValeu.Text = "Cena Brutto";
+            this.columnHeaderItemValeu.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeaderItemValeu.Width = 69;
             // 
             // buttonEditItem
             // 
@@ -523,30 +533,30 @@ namespace Faktury
             this.buttonEditItem.UseVisualStyleBackColor = true;
             this.buttonEditItem.Click += new System.EventHandler(this.buttonEditItem_Click);
             // 
-            // BDeleteItem
+            // buttonDeleteItem
             // 
-            this.BDeleteItem.Location = new System.Drawing.Point(989, 523);
-            this.BDeleteItem.Name = "BDeleteItem";
-            this.BDeleteItem.Size = new System.Drawing.Size(75, 23);
-            this.BDeleteItem.TabIndex = 4;
-            this.BDeleteItem.Text = "Usuń";
-            this.BDeleteItem.UseVisualStyleBackColor = true;
-            this.BDeleteItem.Click += new System.EventHandler(this.BDeleteItem_Click);
+            this.buttonDeleteItem.Location = new System.Drawing.Point(989, 523);
+            this.buttonDeleteItem.Name = "buttonDeleteItem";
+            this.buttonDeleteItem.Size = new System.Drawing.Size(75, 23);
+            this.buttonDeleteItem.TabIndex = 4;
+            this.buttonDeleteItem.Text = "Usuń";
+            this.buttonDeleteItem.UseVisualStyleBackColor = true;
+            this.buttonDeleteItem.Click += new System.EventHandler(this.BDeleteItem_Click);
             // 
-            // BAddItem
+            // buttonAddItem
             // 
-            this.BAddItem.Location = new System.Drawing.Point(989, 18);
-            this.BAddItem.Name = "BAddItem";
-            this.BAddItem.Size = new System.Drawing.Size(75, 23);
-            this.BAddItem.TabIndex = 2;
-            this.BAddItem.Text = "Dodaj";
-            this.BAddItem.UseVisualStyleBackColor = true;
-            this.BAddItem.Click += new System.EventHandler(this.BAddItem_Click_1);
+            this.buttonAddItem.Location = new System.Drawing.Point(989, 18);
+            this.buttonAddItem.Name = "buttonAddItem";
+            this.buttonAddItem.Size = new System.Drawing.Size(75, 23);
+            this.buttonAddItem.TabIndex = 2;
+            this.buttonAddItem.Text = "Dodaj";
+            this.buttonAddItem.UseVisualStyleBackColor = true;
+            this.buttonAddItem.Click += new System.EventHandler(this.BAddItem_Click_1);
             // 
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.SystemColors.Control;
-            this.tabPage3.Controls.Add(this.groupBox2);
+            this.tabPage3.Controls.Add(this.groupBoxContractors);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
@@ -554,19 +564,19 @@ namespace Faktury
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Kontrahenci";
             // 
-            // groupBox2
+            // groupBoxContractors
             // 
-            this.groupBox2.BackColor = System.Drawing.SystemColors.Control;
-            this.groupBox2.Controls.Add(this.buttonDeleteContractors);
-            this.groupBox2.Controls.Add(this.buttonEditContractos);
-            this.groupBox2.Controls.Add(this.buttonAddContractor);
-            this.groupBox2.Controls.Add(this.listViewContractors);
-            this.groupBox2.Location = new System.Drawing.Point(3, 6);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(1078, 552);
-            this.groupBox2.TabIndex = 10;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Kontrahenci";
+            this.groupBoxContractors.BackColor = System.Drawing.SystemColors.Control;
+            this.groupBoxContractors.Controls.Add(this.buttonDeleteContractors);
+            this.groupBoxContractors.Controls.Add(this.buttonEditContractos);
+            this.groupBoxContractors.Controls.Add(this.buttonAddContractor);
+            this.groupBoxContractors.Controls.Add(this.listViewContractors);
+            this.groupBoxContractors.Location = new System.Drawing.Point(3, 6);
+            this.groupBoxContractors.Name = "groupBoxContractors";
+            this.groupBoxContractors.Size = new System.Drawing.Size(1078, 552);
+            this.groupBoxContractors.TabIndex = 10;
+            this.groupBoxContractors.TabStop = false;
+            this.groupBoxContractors.Text = "Kontrahenci";
             // 
             // buttonDeleteContractors
             // 
@@ -601,12 +611,12 @@ namespace Faktury
             // listViewContractors
             // 
             this.listViewContractors.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader8,
-            this.columnHeader15,
-            this.columnHeader9,
-            this.columnHeader13,
-            this.columnHeader10,
-            this.columnHeader11});
+            this.columnHeaderCoName,
+            this.columnHeaderContName,
+            this.columnHeaderType,
+            this.columnHeaderCoPlace,
+            this.columnHeaderStreett,
+            this.columnHeaderPostal});
             this.listViewContractors.FullRowSelect = true;
             this.listViewContractors.HideSelection = false;
             this.listViewContractors.Location = new System.Drawing.Point(12, 19);
@@ -620,67 +630,57 @@ namespace Faktury
             this.listViewContractors.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.listViewContractors_KeyPress);
             this.listViewContractors.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.listViewContractors_MouseDoubleClick);
             // 
-            // columnHeader8
+            // columnHeaderCoName
             // 
-            this.columnHeader8.Text = "Nazwa firmy";
-            this.columnHeader8.Width = 280;
+            this.columnHeaderCoName.Text = "Nazwa firmy";
+            this.columnHeaderCoName.Width = 280;
             // 
-            // columnHeader15
+            // columnHeaderContName
             // 
-            this.columnHeader15.Text = "Nazwa właściciela";
-            this.columnHeader15.Width = 280;
+            this.columnHeaderContName.Text = "Nazwa właściciela";
+            this.columnHeaderContName.Width = 280;
             // 
-            // columnHeader9
+            // columnHeaderType
             // 
-            this.columnHeader9.Text = "Typ";
-            this.columnHeader9.Width = 80;
+            this.columnHeaderType.Text = "Typ";
+            this.columnHeaderType.Width = 80;
             // 
-            // columnHeader13
+            // columnHeaderCoPlace
             // 
-            this.columnHeader13.Text = "Miejscowość";
-            this.columnHeader13.Width = 100;
+            this.columnHeaderCoPlace.Text = "Miejscowość";
+            this.columnHeaderCoPlace.Width = 100;
             // 
-            // columnHeader10
+            // columnHeaderStreett
             // 
-            this.columnHeader10.Text = "Ulica";
-            this.columnHeader10.Width = 158;
+            this.columnHeaderStreett.Text = "Ulica";
+            this.columnHeaderStreett.Width = 158;
             // 
-            // columnHeader11
+            // columnHeaderPostal
             // 
-            this.columnHeader11.Text = "Kod";
-            this.columnHeader11.Width = 50;
+            this.columnHeaderPostal.Text = "Kod";
+            this.columnHeaderPostal.Width = 50;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(987, 97);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 44);
-            this.button1.TabIndex = 21;
-            this.button1.Text = "Utwórz domyślną";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // FMain
+            // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1092, 615);
             this.Controls.Add(this.tabControl);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
-            this.Name = "FMain";
+            this.Controls.Add(this.menuStrip);
+            this.MainMenuStrip = this.menuStrip;
+            this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inboisu";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.menuStrip.ResumeLayout(false);
+            this.menuStrip.PerformLayout();
             this.tabControl.ResumeLayout(false);
-            this.tabPage2.ResumeLayout(false);
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
-            this.tabPage1.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
+            this.tabPageInvoice.ResumeLayout(false);
+            this.groupBoxInvoice.ResumeLayout(false);
+            this.groupBoxInvoice.PerformLayout();
+            this.tabPageItems.ResumeLayout(false);
+            this.groupBoxItems.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
+            this.groupBoxContractors.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -688,65 +688,65 @@ namespace Faktury
 
         #endregion
 
-        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.MenuStrip menuStrip;
         private System.Windows.Forms.ToolStripMenuItem opcjeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem wyjścieToolStripMenuItem;
         private System.Windows.Forms.TabControl tabControl;
-        private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.TabPage tabPageInvoice;
+        private System.Windows.Forms.GroupBox groupBoxInvoice;
+        private System.Windows.Forms.Button buttonDelete;
+        private System.Windows.Forms.Button buttonEdit;
+        private System.Windows.Forms.Button buttonCreateInvoice;
         private System.Windows.Forms.ListView listViewInvoice;
-        private System.Windows.Forms.ColumnHeader columnHeader20;
-        private System.Windows.Forms.ColumnHeader columnHeader21;
-        private System.Windows.Forms.ColumnHeader columnHeader23;
-        private System.Windows.Forms.ColumnHeader columnHeader22;
-        private System.Windows.Forms.ColumnHeader columnHeader24;
-        private System.Windows.Forms.ColumnHeader columnHeader25;
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.ColumnHeader columnHeaderNr;
+        private System.Windows.Forms.ColumnHeader columnHeaderBuyer;
+        private System.Windows.Forms.ColumnHeader columnHeaderPlace;
+        private System.Windows.Forms.ColumnHeader columnHeaderData;
+        private System.Windows.Forms.ColumnHeader columnHeaderValue;
+        private System.Windows.Forms.ColumnHeader columnHeaderContractor;
+        private System.Windows.Forms.TabPage tabPageItems;
+        private System.Windows.Forms.GroupBox groupBoxItems;
         private System.Windows.Forms.ListView listViewItems;
-        private System.Windows.Forms.ColumnHeader columnHeader7;
-        private System.Windows.Forms.ColumnHeader columnHeader1;
-        private System.Windows.Forms.ColumnHeader columnHeader3;
-        private System.Windows.Forms.ColumnHeader columnHeader2;
-        private System.Windows.Forms.ColumnHeader columnHeader4;
-        private System.Windows.Forms.ColumnHeader columnHeader5;
-        private System.Windows.Forms.ColumnHeader columnHeader6;
+        private System.Windows.Forms.ColumnHeader columnHeaderId;
+        private System.Windows.Forms.ColumnHeader columnHeaderName;
+        private System.Windows.Forms.ColumnHeader columnHeaderUnit;
+        private System.Windows.Forms.ColumnHeader columnHeaderItemPrice;
+        private System.Windows.Forms.ColumnHeader columnHeaderTax;
+        private System.Windows.Forms.ColumnHeader columnHeaderTaxPrice;
+        private System.Windows.Forms.ColumnHeader columnHeaderItemValeu;
         private System.Windows.Forms.Button buttonEditItem;
-        private System.Windows.Forms.Button BDeleteItem;
-        private System.Windows.Forms.Button BAddItem;
+        private System.Windows.Forms.Button buttonDeleteItem;
+        private System.Windows.Forms.Button buttonAddItem;
         private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox groupBoxContractors;
         private System.Windows.Forms.Button buttonDeleteContractors;
         private System.Windows.Forms.Button buttonEditContractos;
         private System.Windows.Forms.Button buttonAddContractor;
         private System.Windows.Forms.ListView listViewContractors;
-        private System.Windows.Forms.ColumnHeader columnHeader8;
-        private System.Windows.Forms.ColumnHeader columnHeader9;
-        private System.Windows.Forms.ColumnHeader columnHeader13;
-        private System.Windows.Forms.ColumnHeader columnHeader10;
-        private System.Windows.Forms.ColumnHeader columnHeader11;
-        private System.Windows.Forms.ColumnHeader columnHeader15;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ColumnHeader columnHeaderCoName;
+        private System.Windows.Forms.ColumnHeader columnHeaderType;
+        private System.Windows.Forms.ColumnHeader columnHeaderCoPlace;
+        private System.Windows.Forms.ColumnHeader columnHeaderStreett;
+        private System.Windows.Forms.ColumnHeader columnHeaderPostal;
+        private System.Windows.Forms.ColumnHeader columnHeaderContName;
+        private System.Windows.Forms.DateTimePicker dateTimePickerFrom;
+        private System.Windows.Forms.Label labelFilter;
         private System.Windows.Forms.Button buttonSearch;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label labelValueSince;
+        private System.Windows.Forms.Label labelValueFrom;
         private System.Windows.Forms.TextBox textBoxSince;
         private System.Windows.Forms.TextBox textBoxUntil;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label labelSearchPlace;
         private System.Windows.Forms.ComboBox comboBoxCity;
         private System.Windows.Forms.ComboBox comboBoxPayer;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label labelSearchBuyer;
+        private System.Windows.Forms.Label labelSearchContractor;
         private System.Windows.Forms.ComboBox comboBoxSeller;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.Label labelDateSince;
+        private System.Windows.Forms.Label labelDateFrom;
+        private System.Windows.Forms.DateTimePicker dateTimePickerSince;
         private System.Windows.Forms.Button buttonClear;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonCreateDefaultInvoice;
     }
 }
 

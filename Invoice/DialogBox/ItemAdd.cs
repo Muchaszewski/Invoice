@@ -16,7 +16,6 @@ namespace Faktury.DialogBox
     public partial class ItemAdd : Form
     {
         bool edit = false;
-
         public ItemAdd()
         {
             InitializeComponent();
@@ -40,19 +39,13 @@ namespace Faktury.DialogBox
         {
             edit = true;
 
-            BConfirm.Text = "Edytuj";
+            buttonConfirm.Text = "Edytuj";
 
             TextBoxName.Text = Data.ItemInEditing.Name;
             textBoxPrice.Text = Utils.Utils.ConvertToDigitsCostum(Data.ItemInEditing.Price);
             textBoxTax.Text = Data.ItemInEditing.Tax.ToString();
 
             comboBoxType.SelectedIndex = (int)Data.ItemInEditing.Unit;
-
-            if (Data.ItemInEditing.Other != null)
-            {
-                checkBox1.Checked = true;
-                textBoxOther.Text = Data.ItemInEditing.Other;
-            }
 
             update();
         }
@@ -70,10 +63,6 @@ namespace Faktury.DialogBox
                 Data.ItemInEditing.Price = decimal.Parse(textBoxPrice.Text);
                 Data.ItemInEditing.Tax = Convert.ToInt32(textBoxTax.Text);
                 Data.ItemInEditing.Unit = (EUnitItem)comboBoxType.SelectedIndex;
-                if (textBoxOther.Visible == true)
-                {
-                    Data.ItemInEditing.Other = textBoxOther.Text;
-                }
                 this.Close();
             }
         }
@@ -85,17 +74,6 @@ namespace Faktury.DialogBox
         private void BConfirm_Click(object sender, EventArgs e)
         {
             save();
-        }
-
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-            if (textBoxOther.Visible == false)
-                textBoxOther.Visible = true;
-            else
-            {
-                textBoxOther.Clear();
-                textBoxOther.Visible = false;
-            }
         }
 
         /// <summary>

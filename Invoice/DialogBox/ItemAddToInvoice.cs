@@ -27,11 +27,11 @@ namespace Faktury.DialogBox
             else
             {
                 edit = true;
-                textBoxQ.Text = item.Quantity.ToString();
+                textBoxQuantity.Text = item.Quantity.ToString();
             }
             if (edit == true)
             {
-                button1.Text = "Edytuj";
+                buttonAdd.Text = "Edytuj";
             }
         }
 
@@ -42,9 +42,9 @@ namespace Faktury.DialogBox
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (Regex.IsMatch(textBoxQ.Text, @"\d"))
+            if (Regex.IsMatch(textBoxQuantity.Text, @"\d"))
             {
-                int t = Convert.ToInt32(textBoxQ.Text);
+                int t = Convert.ToInt32(textBoxQuantity.Text);
                 if (t > 0)
                 {
                     Data.ItemsToAdd.Add(item.Clone());
@@ -64,21 +64,21 @@ namespace Faktury.DialogBox
 
         private void textBoxQ_TextChanged(object sender, EventArgs e)
         {
-            if (Regex.IsMatch(textBoxQ.Text, @"\d"))
+            if (Regex.IsMatch(textBoxQuantity.Text, @"\d"))
             {
-                int t = Convert.ToInt32(textBoxQ.Text);
+                int t = Convert.ToInt32(textBoxQuantity.Text);
                 if (t > 0)
                 {
-                    textBoxPrice.Text = Utils.Utils.CalculateQuantityValue(item.Price, item.Tax, t);
+                    textBoxTotalValue.Text = Utils.Utils.CalculateQuantityValue(item.Price, item.Tax, t);
                 }
                 else
                 {
-                    textBoxPrice.Text = Utils.Utils.CalculateQuantityValue(item.Price, item.Tax, 1);
+                    textBoxTotalValue.Text = Utils.Utils.CalculateQuantityValue(item.Price, item.Tax, 1);
                 }
             }
             else
             {
-                textBoxPrice.Text = Utils.Utils.CalculateQuantityValue(item.Price, item.Tax, 1);
+                textBoxTotalValue.Text = Utils.Utils.CalculateQuantityValue(item.Price, item.Tax, 1);
             }
         }
     }

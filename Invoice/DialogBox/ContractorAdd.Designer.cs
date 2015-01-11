@@ -31,34 +31,34 @@
             this.labelName = new System.Windows.Forms.Label();
             this.textBoxName = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.labelType = new System.Windows.Forms.Label();
+            this.groupBoxAdress = new System.Windows.Forms.GroupBox();
+            this.comboBoxState = new System.Windows.Forms.ComboBox();
+            this.labelState = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.textBoxPostCode2 = new System.Windows.Forms.TextBox();
             this.textBoxPostCode1 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.labelPostalCode = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.labelCountry = new System.Windows.Forms.Label();
             this.textBoxStreet = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.labelStreet = new System.Windows.Forms.Label();
             this.textBoxCity = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
+            this.labelCity = new System.Windows.Forms.Label();
+            this.labelNIP = new System.Windows.Forms.Label();
             this.textBoxNIP = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
+            this.labelBankNumber = new System.Windows.Forms.Label();
             this.textBoxBank = new System.Windows.Forms.TextBox();
             this.buttonAdd = new System.Windows.Forms.Button();
             this.buttonCancel = new System.Windows.Forms.Button();
-            this.label13 = new System.Windows.Forms.Label();
+            this.labelBankName = new System.Windows.Forms.Label();
             this.textBoxBancAccName = new System.Windows.Forms.TextBox();
             this.textBoxCompany = new System.Windows.Forms.TextBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
+            this.labelCompanyName = new System.Windows.Forms.Label();
+            this.labelRegon = new System.Windows.Forms.Label();
             this.textBoxREGON = new System.Windows.Forms.TextBox();
             this.buttonValidate = new System.Windows.Forms.Button();
-            this.groupBox1.SuspendLayout();
+            this.groupBoxAdress.SuspendLayout();
             this.SuspendLayout();
             // 
             // labelName
@@ -91,41 +91,41 @@
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 2;
             // 
-            // label1
+            // labelType
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 61);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(25, 13);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Typ";
+            this.labelType.AutoSize = true;
+            this.labelType.Location = new System.Drawing.Point(12, 61);
+            this.labelType.Name = "labelType";
+            this.labelType.Size = new System.Drawing.Size(25, 13);
+            this.labelType.TabIndex = 3;
+            this.labelType.Text = "Typ";
             // 
-            // groupBox1
+            // groupBoxAdress
             // 
-            this.groupBox1.Controls.Add(this.comboBox2);
-            this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.textBoxPostCode2);
-            this.groupBox1.Controls.Add(this.textBoxPostCode1);
-            this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.textBoxStreet);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.textBoxCity);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Location = new System.Drawing.Point(6, 162);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(387, 99);
-            this.groupBox1.TabIndex = 4;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Adres";
+            this.groupBoxAdress.Controls.Add(this.comboBoxState);
+            this.groupBoxAdress.Controls.Add(this.labelState);
+            this.groupBoxAdress.Controls.Add(this.label1);
+            this.groupBoxAdress.Controls.Add(this.textBoxPostCode2);
+            this.groupBoxAdress.Controls.Add(this.textBoxPostCode1);
+            this.groupBoxAdress.Controls.Add(this.labelPostalCode);
+            this.groupBoxAdress.Controls.Add(this.textBox4);
+            this.groupBoxAdress.Controls.Add(this.labelCountry);
+            this.groupBoxAdress.Controls.Add(this.textBoxStreet);
+            this.groupBoxAdress.Controls.Add(this.labelStreet);
+            this.groupBoxAdress.Controls.Add(this.textBoxCity);
+            this.groupBoxAdress.Controls.Add(this.labelCity);
+            this.groupBoxAdress.Location = new System.Drawing.Point(6, 162);
+            this.groupBoxAdress.Name = "groupBoxAdress";
+            this.groupBoxAdress.Size = new System.Drawing.Size(387, 99);
+            this.groupBoxAdress.TabIndex = 4;
+            this.groupBoxAdress.TabStop = false;
+            this.groupBoxAdress.Text = "Adres";
             // 
-            // comboBox2
+            // comboBoxState
             // 
-            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.comboBoxState.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxState.FormattingEnabled = true;
+            this.comboBoxState.Items.AddRange(new object[] {
             "dolnośląskie",
             "kujawsko-pomorskie",
             "łódzkie",
@@ -142,30 +142,30 @@
             "warmińsko-mazurskie",
             "wielkopolskie",
             "zachodniopomorskie"});
-            this.comboBox2.Location = new System.Drawing.Point(247, 17);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(132, 21);
-            this.comboBox2.TabIndex = 7;
+            this.comboBoxState.Location = new System.Drawing.Point(247, 17);
+            this.comboBoxState.Name = "comboBoxState";
+            this.comboBoxState.Size = new System.Drawing.Size(132, 21);
+            this.comboBoxState.TabIndex = 7;
             // 
-            // label7
+            // labelState
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(168, 20);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(74, 13);
-            this.label7.TabIndex = 10;
-            this.label7.Text = "Województwo";
+            this.labelState.AutoSize = true;
+            this.labelState.Location = new System.Drawing.Point(168, 20);
+            this.labelState.Name = "labelState";
+            this.labelState.Size = new System.Drawing.Size(74, 13);
+            this.labelState.TabIndex = 10;
+            this.labelState.Text = "Województwo";
             // 
-            // label6
+            // label1
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label6.Location = new System.Drawing.Point(342, 46);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(11, 13);
-            this.label6.TabIndex = 9;
-            this.label6.Text = "-";
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Location = new System.Drawing.Point(342, 46);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(11, 13);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "-";
             // 
             // textBoxPostCode2
             // 
@@ -185,14 +185,14 @@
             this.textBoxPostCode1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxPostCode1_KeyDown);
             this.textBoxPostCode1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxPostCode1_KeyPress);
             // 
-            // label5
+            // labelPostalCode
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(246, 46);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(75, 13);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "Kod Pocztowy";
+            this.labelPostalCode.AutoSize = true;
+            this.labelPostalCode.Location = new System.Drawing.Point(246, 46);
+            this.labelPostalCode.Name = "labelPostalCode";
+            this.labelPostalCode.Size = new System.Drawing.Size(75, 13);
+            this.labelPostalCode.TabIndex = 6;
+            this.labelPostalCode.Text = "Kod Pocztowy";
             // 
             // textBox4
             // 
@@ -204,14 +204,14 @@
             this.textBox4.TabIndex = 5;
             this.textBox4.Text = "Polska";
             // 
-            // label4
+            // labelCountry
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(16, 20);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(25, 13);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Kraj";
+            this.labelCountry.AutoSize = true;
+            this.labelCountry.Location = new System.Drawing.Point(16, 20);
+            this.labelCountry.Name = "labelCountry";
+            this.labelCountry.Size = new System.Drawing.Size(25, 13);
+            this.labelCountry.TabIndex = 4;
+            this.labelCountry.Text = "Kraj";
             // 
             // textBoxStreet
             // 
@@ -220,14 +220,14 @@
             this.textBoxStreet.Size = new System.Drawing.Size(326, 20);
             this.textBoxStreet.TabIndex = 11;
             // 
-            // label3
+            // labelStreet
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(16, 73);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(31, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Ulica";
+            this.labelStreet.AutoSize = true;
+            this.labelStreet.Location = new System.Drawing.Point(16, 73);
+            this.labelStreet.Name = "labelStreet";
+            this.labelStreet.Size = new System.Drawing.Size(31, 13);
+            this.labelStreet.TabIndex = 2;
+            this.labelStreet.Text = "Ulica";
             // 
             // textBoxCity
             // 
@@ -236,23 +236,23 @@
             this.textBoxCity.Size = new System.Drawing.Size(153, 20);
             this.textBoxCity.TabIndex = 8;
             // 
-            // label2
+            // labelCity
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(16, 46);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(68, 13);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Miejscowość";
+            this.labelCity.AutoSize = true;
+            this.labelCity.Location = new System.Drawing.Point(16, 46);
+            this.labelCity.Name = "labelCity";
+            this.labelCity.Size = new System.Drawing.Size(68, 13);
+            this.labelCity.TabIndex = 0;
+            this.labelCity.Text = "Miejscowość";
             // 
-            // label11
+            // labelNIP
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(12, 88);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(25, 13);
-            this.label11.TabIndex = 8;
-            this.label11.Text = "NIP";
+            this.labelNIP.AutoSize = true;
+            this.labelNIP.Location = new System.Drawing.Point(12, 88);
+            this.labelNIP.Name = "labelNIP";
+            this.labelNIP.Size = new System.Drawing.Size(25, 13);
+            this.labelNIP.TabIndex = 8;
+            this.labelNIP.Text = "NIP";
             // 
             // textBoxNIP
             // 
@@ -261,14 +261,14 @@
             this.textBoxNIP.Size = new System.Drawing.Size(87, 20);
             this.textBoxNIP.TabIndex = 3;
             // 
-            // label12
+            // labelBankNumber
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(9, 139);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(139, 13);
-            this.label12.TabIndex = 10;
-            this.label12.Text = "Numer rachunku bakowego";
+            this.labelBankNumber.AutoSize = true;
+            this.labelBankNumber.Location = new System.Drawing.Point(9, 139);
+            this.labelBankNumber.Name = "labelBankNumber";
+            this.labelBankNumber.Size = new System.Drawing.Size(139, 13);
+            this.labelBankNumber.TabIndex = 10;
+            this.labelBankNumber.Text = "Numer rachunku bakowego";
             // 
             // textBoxBank
             // 
@@ -299,14 +299,14 @@
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.button2_Click);
             // 
-            // label13
+            // labelBankName
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(16, 113);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(129, 13);
-            this.label13.TabIndex = 15;
-            this.label13.Text = "Nazwa konta bankowego";
+            this.labelBankName.AutoSize = true;
+            this.labelBankName.Location = new System.Drawing.Point(16, 113);
+            this.labelBankName.Name = "labelBankName";
+            this.labelBankName.Size = new System.Drawing.Size(129, 13);
+            this.labelBankName.TabIndex = 15;
+            this.labelBankName.Text = "Nazwa konta bankowego";
             // 
             // textBoxBancAccName
             // 
@@ -323,23 +323,23 @@
             this.textBoxCompany.Size = new System.Drawing.Size(296, 20);
             this.textBoxCompany.TabIndex = 0;
             // 
-            // label14
+            // labelCompanyName
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(12, 9);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(64, 13);
-            this.label14.TabIndex = 18;
-            this.label14.Text = "Nazwa firmy";
+            this.labelCompanyName.AutoSize = true;
+            this.labelCompanyName.Location = new System.Drawing.Point(12, 9);
+            this.labelCompanyName.Name = "labelCompanyName";
+            this.labelCompanyName.Size = new System.Drawing.Size(64, 13);
+            this.labelCompanyName.TabIndex = 18;
+            this.labelCompanyName.Text = "Nazwa firmy";
             // 
-            // label15
+            // labelRegon
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(152, 88);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(39, 13);
-            this.label15.TabIndex = 19;
-            this.label15.Text = "Regon";
+            this.labelRegon.AutoSize = true;
+            this.labelRegon.Location = new System.Drawing.Point(152, 88);
+            this.labelRegon.Name = "labelRegon";
+            this.labelRegon.Size = new System.Drawing.Size(39, 13);
+            this.labelRegon.TabIndex = 19;
+            this.labelRegon.Text = "Regon";
             // 
             // textBoxREGON
             // 
@@ -368,19 +368,19 @@
             this.ControlBox = false;
             this.Controls.Add(this.buttonValidate);
             this.Controls.Add(this.textBoxREGON);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label14);
+            this.Controls.Add(this.labelRegon);
+            this.Controls.Add(this.labelCompanyName);
             this.Controls.Add(this.textBoxCompany);
             this.Controls.Add(this.textBoxBancAccName);
-            this.Controls.Add(this.label13);
+            this.Controls.Add(this.labelBankName);
             this.Controls.Add(this.buttonCancel);
             this.Controls.Add(this.buttonAdd);
             this.Controls.Add(this.textBoxBank);
-            this.Controls.Add(this.label12);
+            this.Controls.Add(this.labelBankNumber);
             this.Controls.Add(this.textBoxNIP);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.labelNIP);
+            this.Controls.Add(this.groupBoxAdress);
+            this.Controls.Add(this.labelType);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.textBoxName);
             this.Controls.Add(this.labelName);
@@ -393,8 +393,8 @@
             this.Text = "ContractorAdd";
             this.TopMost = true;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ContractorAdd_FormClosing);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.groupBoxAdress.ResumeLayout(false);
+            this.groupBoxAdress.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -405,31 +405,31 @@
         private System.Windows.Forms.Label labelName;
         private System.Windows.Forms.TextBox textBoxName;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label labelType;
+        private System.Windows.Forms.GroupBox groupBoxAdress;
         private System.Windows.Forms.TextBox textBoxStreet;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label labelStreet;
         private System.Windows.Forms.TextBox textBoxCity;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label labelCity;
+        private System.Windows.Forms.ComboBox comboBoxState;
+        private System.Windows.Forms.Label labelState;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBoxPostCode2;
         private System.Windows.Forms.TextBox textBoxPostCode1;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label labelPostalCode;
         private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label labelCountry;
+        private System.Windows.Forms.Label labelNIP;
         private System.Windows.Forms.TextBox textBoxNIP;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label labelBankNumber;
         private System.Windows.Forms.TextBox textBoxBank;
         private System.Windows.Forms.Button buttonAdd;
         private System.Windows.Forms.Button buttonCancel;
-        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label labelBankName;
         private System.Windows.Forms.TextBox textBoxBancAccName;
         private System.Windows.Forms.TextBox textBoxCompany;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label labelCompanyName;
+        private System.Windows.Forms.Label labelRegon;
         private System.Windows.Forms.TextBox textBoxREGON;
         private System.Windows.Forms.Button buttonValidate;
     }
