@@ -17,21 +17,14 @@ namespace Faktury.DialogBox
     {
         private bool edit;
         private Item item = Data.ItemInEditing;
-        public ItemAddToInvoice()
+        public ItemAddToInvoice(bool edit)
         {
+            this.edit = edit;
             InitializeComponent();
-            if (item.Quantity == 0)
-            {
-                edit = false;
-            }
-            else
-            {
-                edit = true;
-                textBoxQuantity.Text = item.Quantity.ToString();
-            }
             if (edit == true)
             {
                 buttonAdd.Text = "Edytuj";
+                textBoxQuantity.Text = item.Quantity.ToString();
             }
         }
 
@@ -47,7 +40,11 @@ namespace Faktury.DialogBox
                 int t = Convert.ToInt32(textBoxQuantity.Text);
                 if (t > 0)
                 {
-                    Data.ItemsToAdd.Add(item.Clone());
+                    item.Quantity = t;
+                    if (!edit)
+                    {
+                        Data.ItemsToAdd.Add(item.Clone());
+                    }
                     ItemChoose.RebuildItemAddedEventCaller();
                     this.Close();
                 }

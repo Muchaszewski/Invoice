@@ -179,12 +179,6 @@
       <DependentUpon>Main Screen.cs</DependentUpon>
     </Compile>
     <Compile Include="Options\BackupItems.cs" />
-    <Compile Include="Utils\Backup\BackupMenu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Utils\Backup\BackupMenu.Designer.cs">
-      <DependentUpon>BackupMenu.cs</DependentUpon>
-    </Compile>
     <Compile Include="Options\Options.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -198,7 +192,13 @@
     </Compile>
     <Compile Include="Utils\AutoUpdate\Update.cs" />
     <Compile Include="Utils\AutoUpdate\VersionChecker.cs" />
-    <Compile Include="Utils\Backup\GoogleDriveBackup.cs" />
+    <Compile Include="Utils\GoogleBackup\BackupMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utils\GoogleBackup\BackupMenu.Designer.cs">
+      <DependentUpon>BackupMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\GoogleBackup\GoogleDriveBackup.cs" />
     <Compile Include="Utils\ListViewItemComparer.cs" />
     <Compile Include="Utils\MenageUtils.cs" />
     <Compile Include="Utils\PrintPreview.cs" />
@@ -239,16 +239,15 @@
     <EmbeddedResource Include="Main Screen.resx">
       <DependentUpon>Main Screen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Utils\Backup\BackupMenu.resx">
-      <DependentUpon>BackupMenu.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Options\Options.resx">
       <DependentUpon>Options.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utils\GoogleBackup\BackupMenu.resx">
+      <DependentUpon>BackupMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Utils\TextWindow.resx">
       <DependentUpon>TextWindow.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="ClassDiagram1.cd" />
     <None Include="Faktury_TemporaryKey.pfx" />
     <None Include="packages.config" />
     <None Include="Properties\app.manifest" />

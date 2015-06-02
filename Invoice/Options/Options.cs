@@ -111,5 +111,10 @@ namespace Faktury
                 textBox2.Text = "";
             }
         }
+
+        private void buttonUpdate_Click(object sender, EventArgs e)
+        {
+            Faktury.Utils.AutoUpdate.Update.Download();
+        }
     }
 }

@@ -101,7 +101,7 @@ namespace Faktury.DialogBox
             {
                 int index = listViewItems.FocusedItem.ImageIndex;
                 Data.ItemInEditing = Data.Items[index];
-                new ItemAddToInvoice().ShowDialog();
+                new ItemAddToInvoice(false).ShowDialog();
 
             }
         }

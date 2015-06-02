@@ -23,29 +23,6 @@ namespace Faktury
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             FileWriter.Load();
-            try
-            {
-                GoogleDriveBackup.Connect();
-            }
-            catch
-            {
-                GoogleAPI = false;
-            }
-            try
-            {
-                if (VersionChecker.IsNewUpdate(Application.ProductVersion))
-                {
-                    var result = MessageBox.Show("Dostępna jest nowa wersja. Czy chcesz aktualizować teraz?\r\nWersja online: " + VersionChecker.latestVersion + "\r\nWersje na twoim komputerze: " + Application.ProductVersion, "Nowa wersja jest dostępna", MessageBoxButtons.YesNo);
-                    if (result == DialogResult.Yes)
-                    {
-                        Update.Download();
-                    }
-                }
-            }
-            catch
-            {
-
-            }
             Application.Run(new FormMain());
         }
     }

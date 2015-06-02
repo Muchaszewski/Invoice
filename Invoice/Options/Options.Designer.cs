@@ -31,6 +31,8 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.labelNaxtInvoiceNr = new System.Windows.Forms.Label();
             this.groupBoxInvoice = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.buttonUpdate = new System.Windows.Forms.Button();
             this.labelCommand = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.labelVersionOnline = new System.Windows.Forms.Label();
@@ -73,6 +75,8 @@
             // 
             // groupBoxInvoice
             // 
+            this.groupBoxInvoice.Controls.Add(this.label1);
+            this.groupBoxInvoice.Controls.Add(this.buttonUpdate);
             this.groupBoxInvoice.Controls.Add(this.labelCommand);
             this.groupBoxInvoice.Controls.Add(this.textBox2);
             this.groupBoxInvoice.Controls.Add(this.labelVersionOnline);
@@ -92,6 +96,25 @@
             this.groupBoxInvoice.TabIndex = 3;
             this.groupBoxInvoice.TabStop = false;
             this.groupBoxInvoice.Text = "Opcje Fakturowania";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(476, 346);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(140, 13);
+            this.label1.TabIndex = 18;
+            this.label1.Text = "Zaktualizuj aplikacje ręcznie";
+            // 
+            // buttonUpdate
+            // 
+            this.buttonUpdate.Location = new System.Drawing.Point(420, 362);
+            this.buttonUpdate.Name = "buttonUpdate";
+            this.buttonUpdate.Size = new System.Drawing.Size(259, 23);
+            this.buttonUpdate.TabIndex = 17;
+            this.buttonUpdate.Text = "Aktualizuj teraz";
+            this.buttonUpdate.UseVisualStyleBackColor = true;
+            this.buttonUpdate.Click += new System.EventHandler(this.buttonUpdate_Click);
             // 
             // labelCommand
             // 
@@ -256,6 +279,7 @@
             // 
             // buttonRestoreLoad
             // 
+            this.buttonRestoreLoad.Enabled = false;
             this.buttonRestoreLoad.Location = new System.Drawing.Point(604, 19);
             this.buttonRestoreLoad.Name = "buttonRestoreLoad";
             this.buttonRestoreLoad.Size = new System.Drawing.Size(75, 23);
@@ -333,5 +357,7 @@
         private System.Windows.Forms.Label labelVersionOnline;
         private System.Windows.Forms.Label labelCommand;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button buttonUpdate;
     }
 }

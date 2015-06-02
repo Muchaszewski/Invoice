@@ -401,7 +401,7 @@ namespace Faktury.DialogBox
                 saved = false;
                 int index = listViewItems.FocusedItem.Index;
                 Data.ItemInEditing = sInvoice.Items[index];
-                new ItemAddToInvoice().ShowDialog();
+                new ItemAddToInvoice(true).ShowDialog();
                 sInvoice.Items[index] = Data.ItemInEditing;
                 RebuildItems();
             }
